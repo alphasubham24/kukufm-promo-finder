@@ -1,0 +1,24 @@
+{
+  "episodes": 50,
+  "raw_candidates": 89,
+  "valid": 89,
+  "rejected_invalid": 0,
+  "dropped_duplicates": 6,
+  "final": 83,
+  "validity_rate": 1.0,
+  "episodes_with_a_promo": 48,
+  "episodes_without_promo": [
+    8,
+    50
+  ],
+  "duration_sec": {
+    "min": 20.5,
+    "max": 60.0,
+    "mean": 40.0
+  },
+  "flag_counts": {
+    "weak_ending_signal": 2
+  },
+  "rules_vs_llm_disagreements": [],
+  "rejection_reasons": []
+}

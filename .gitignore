@@ -8,7 +8,6 @@
 
 # ── Run outputs (large, not source code) ────────────────────────────────────
 runs/
-raw_outputs/
 uploads/
 
 # ── Confidential show data ───────────────────────────────────────────────────

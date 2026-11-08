@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Ep37 rule pick @1:45.5",
+    "reason": "overlaps >50% with higher-scored 'Ep37 rule pick @2:14.0'"
+  },
+  {
+    "title": "Ep22 rule pick @1:06.0",
+    "reason": "overlaps >50% with higher-scored 'Ep22 rule pick @1:36.0'"
+  },
+  {
+    "title": "Ep42 rule pick @0:49.0",
+    "reason": "overlaps >50% with higher-scored 'Ep42 rule pick @0:18.0'"
+  },
+  {
+    "title": "Ep44 rule pick @0:46.6",
+    "reason": "overlaps >50% with higher-scored 'Ep44 rule pick @0:17.4'"
+  },
+  {
+    "title": "Ep26 rule pick @1:30.2",
+    "reason": "overlaps >50% with higher-scored 'Ep26 rule pick @0:56.0'"
+  },
+  {
+    "title": "Ep48 rule pick @0:43.3",
+    "reason": "overlaps >50% with higher-scored 'Ep48 rule pick @0:17.4'"
+  }
+]

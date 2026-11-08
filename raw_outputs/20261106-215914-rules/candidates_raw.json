@@ -1,0 +1,1426 @@
+[
+  {
+    "title": "Ep1 rule pick @1:15.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 1,
+        "from": 51,
+        "to": 86
+      }
+    ],
+    "hook": "LADY IN GOLD GOWN: Long enough to know he was never going to marry you.",
+    "cliffhanger": "THE FORMER GROOM: I cannot marry a woman of such plainness and low value...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep1 rule pick @0:46.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 1,
+        "from": 31,
+        "to": 46
+      }
+    ],
+    "hook": "LADY JULIANA: You knew this before I walked through those doors!",
+    "cliffhanger": "LADY JULIANA: And you knew?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep2 rule pick @0:00.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 2,
+        "from": 1,
+        "to": 25
+      }
+    ],
+    "hook": "THE FORMER GROOM: I cannot marry you, Juliana.",
+    "cliffhanger": "LADY JULIANA: Surely you will not let him humiliate me like this?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep2 rule pick @0:34.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 2,
+        "from": 25,
+        "to": 54
+      }
+    ],
+    "hook": "LADY JULIANA: Surely you will not let him humiliate me like this?",
+    "cliffhanger": "LADY JULIANA: Dignity?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep3 rule pick @1:24.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 3,
+        "from": 71,
+        "to": 115
+      }
+    ],
+    "hook": "A heavy, bone-rattling punch followed by the clatter and thud of the guard collapsing onto the stone floor.",
+    "cliffhanger": "THE BEARDED STRANGER: Lady Juliana... accept my hand.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep3 rule pick @0:13.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 3,
+        "from": 10,
+        "to": 49
+      }
+    ],
+    "hook": "LADY IN GOLD GOWN: I didn't steal what was never truly yours.",
+    "cliffhanger": "LADY JULIANA: Let me go!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep4 rule pick @1:55.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 4,
+        "from": 86,
+        "to": 109
+      }
+    ],
+    "hook": "GERALD: You have thrown yourself away!",
+    "cliffhanger": "Heavy oak doors creaking open, followed by a triumphant musical swell fading out into silence.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep4 rule pick @0:34.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 4,
+        "from": 28,
+        "to": 62
+      }
+    ],
+    "hook": "MYSTERIOUS BEARDED MAN: A woman who was betrayed.",
+    "cliffhanger": "THE PRIEST: Are you certain?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep5 rule pick @0:57.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 5,
+        "from": 33,
+        "to": 61
+      }
+    ],
+    "hook": "A heavy wet slap as the leather-bound book crashes into the puddle-slicked stone pavement.",
+    "cliffhanger": "Rain gently pattering on cobblestones beneath a sweeping, melancholic orchestral swell that slowly fades to black.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep5 rule pick @0:11.7",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 5,
+        "from": 8,
+        "to": 24
+      }
+    ],
+    "hook": "JULIANA: The vows are spoken, Father. I am his wife now.",
+    "cliffhanger": "LADY ASHCROFT: And the ledger...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep6 rule pick @0:30.1",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 6,
+        "from": 28,
+        "to": 51
+      }
+    ],
+    "hook": "JULIANA: At least no one there will be waiting to humiliate me.",
+    "cliffhanger": "MYSTERIOUS BEARDED MAN: You are not disappointed?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep6 rule pick @1:23.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 6,
+        "from": 73,
+        "to": 96
+      }
+    ],
+    "hook": "Crisp crackling and snapping of dry wood catching fire in the hearth.",
+    "cliffhanger": "Warm hearth crackles blending with gentle string music fading out.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep7 rule pick @1:05.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 7,
+        "from": 31,
+        "to": 44
+      }
+    ],
+    "hook": "GERALD: I have enough influence to make a beggar disappear.",
+    "cliffhanger": "GERALD: What are you staring at?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep7 rule pick @0:22.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 7,
+        "from": 8,
+        "to": 34
+      }
+    ],
+    "hook": "ARISTOCRATIC WOMAN: This is where you live now?",
+    "cliffhanger": "GERALD: Where is that beggar husband?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep9 rule pick @0:38.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 9,
+        "from": 28,
+        "to": 72
+      }
+    ],
+    "hook": "Juliana quickly grabs bundles of dried herbs from the table and turns to Alexander.",
+    "cliffhanger": "BLOND NOBLEMAN: What rumor?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep10 rule pick @0:09.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 10,
+        "from": 10,
+        "to": 47
+      }
+    ],
+    "hook": "JULIANA: There is blood running down your arm.",
+    "cliffhanger": "JULIANA: Why do you look at me like that?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep10 rule pick @0:55.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 10,
+        "from": 43,
+        "to": 58
+      }
+    ],
+    "hook": "JULIANA: You are a terrible liar.",
+    "cliffhanger": "ALEXANDER: Your touch is the only medicine that has ever eased my pain.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep11 rule pick @0:29.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 11,
+        "from": 27,
+        "to": 68
+      }
+    ],
+    "hook": "GERALD: Of course you would defend him. You married a beggar!",
+    "cliffhanger": "GERALD: What is it, soldier? Going to strike a gentleman in front of his wife?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep11 rule pick @1:12.1",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 11,
+        "from": 62,
+        "to": 83
+      }
+    ],
+    "hook": "JULIANA: You planted this accusation because you cannot bear that I am happy without you!",
+    "cliffhanger": "GERALD: There it is. Ha!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep12 rule pick @1:05.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 12,
+        "from": 44,
+        "to": 54
+      }
+    ],
+    "hook": "CLARISSA: Fail, or refuse, and your husband hangs from the gallows.",
+    "cliffhanger": "Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep12 rule pick @0:05.7",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 12,
+        "from": 4,
+        "to": 29
+      }
+    ],
+    "hook": "JULIANA: No! That watch was not in his coat!",
+    "cliffhanger": "JULIANA: What do you want?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep13 rule pick @0:47.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 13,
+        "from": 28,
+        "to": 54
+      }
+    ],
+    "hook": "ALEXANDER: Juliana, stop!",
+    "cliffhanger": "ALEXANDER: Stop!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep13 rule pick @1:18.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 13,
+        "from": 51,
+        "to": 69
+      }
+    ],
+    "hook": "JULIANA: Ah!",
+    "cliffhanger": "Juliana reaches out her torn, bloodied hand and wraps her fingers tightly around the emerald ring.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep14 rule pick @0:00.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 14,
+        "from": 1,
+        "to": 16
+      }
+    ],
+    "hook": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+    "cliffhanger": "ALEXANDER: What have they done to you?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep14 rule pick @0:44.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 14,
+        "from": 29,
+        "to": 50
+      }
+    ],
+    "hook": "Crackling flames and wood popping in the open fireplace.",
+    "cliffhanger": "Ominous, resonating low bass boom swelling into sudden silence as the screen cuts to black.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep15 rule pick @0:44.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 15,
+        "from": 30,
+        "to": 54
+      }
+    ],
+    "hook": "THUG WITH CAP: Get out of the way!",
+    "cliffhanger": "Tense, low dramatic cello swell holding into an abrupt cliffhanger cut.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep15 rule pick @0:16.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 15,
+        "from": 13,
+        "to": 38
+      }
+    ],
+    "hook": "JULIANA: Those are medicinal plants!",
+    "cliffhanger": "JULIANA: My mother's plants...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep16 rule pick @0:06.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 16,
+        "from": 6,
+        "to": 35
+      }
+    ],
+    "hook": "THUG WITH CAP: I said, move!",
+    "cliffhanger": "ALEXANDER: Who sent you?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep16 rule pick @0:49.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 16,
+        "from": 43,
+        "to": 63
+      }
+    ],
+    "hook": "THUG WITH CAP: Harrington! Gerald Harrington paid us!",
+    "cliffhanger": "Slow, resonant emotional cello melody swelling to a dramatic cliffhanger hold.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep17 rule pick @0:11.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 17,
+        "from": 7,
+        "to": 42
+      }
+    ],
+    "hook": "Rhythmic, heavy thuds of an iron hammer pounding into weathered wood.",
+    "cliffhanger": "ALEXANDER: Of them?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep18 rule pick @0:06.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 18,
+        "from": 5,
+        "to": 34
+      }
+    ],
+    "hook": "JULIANA: Alexander!",
+    "cliffhanger": "JULIANA: No! No!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep18 rule pick @0:59.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 18,
+        "from": 34,
+        "to": 47
+      }
+    ],
+    "hook": "JULIANA: No! No!",
+    "cliffhanger": "ALEXANDER: Down!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep19 rule pick @1:19.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 19,
+        "from": 44,
+        "to": 61
+      }
+    ],
+    "hook": "INFORMANT: And everyone believes you are dead.",
+    "cliffhanger": "Alexander sits down beside her in the straw. Juliana leans gently against his shoulder, letting her weary head rest against his broad chest.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep20 rule pick @0:15.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 20,
+        "from": 10,
+        "to": 24
+      }
+    ],
+    "hook": "CATHERINE: 'Practically' is a word for beggars. I do not marry a practical Duke.",
+    "cliffhanger": "CATHERINE: How much longer can the frail thing survive?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep20 rule pick @1:10.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 20,
+        "from": 43,
+        "to": 66
+      }
+    ],
+    "hook": "SEAMUS: You are a viscount's daughter!",
+    "cliffhanger": "CATHERINE: This house will only bow to me.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep21 rule pick @0:31.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 21,
+        "from": 21,
+        "to": 57
+      }
+    ],
+    "hook": "PRUDENCE: He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!",
+    "cliffhanger": "PRUDENCE: You saved him. The grand doctors left him to choke, but you...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep21 rule pick @0:04.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 21,
+        "from": 4,
+        "to": 21
+      }
+    ],
+    "hook": "PRUDENCE: Lady Juliana! Please! You have to help me, Toby is dying!",
+    "cliffhanger": "PRUDENCE: He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep22 rule pick @1:06.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 22,
+        "from": 42,
+        "to": 75
+      }
+    ],
+    "hook": "HOUSEKEEPER: And can you keep your eyes and ears where they belong?",
+    "cliffhanger": "LADY JULIANA: This isn't ordinary fever.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep22 rule pick @1:36.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 22,
+        "from": 60,
+        "to": 79
+      }
+    ],
+    "hook": "PRUDENCE: Do not stare. Keep walking.",
+    "cliffhanger": "LADY JULIANA: Who has been treating you?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep23 rule pick @1:22.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 23,
+        "from": 42,
+        "to": 65
+      }
+    ],
+    "hook": "PRUDENCE: Poison?",
+    "cliffhanger": "Loud, metallic clack of the door latch turning, followed by the slow creak of wood hinges.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep24 rule pick @0:32.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 24,
+        "from": 23,
+        "to": 53
+      }
+    ],
+    "hook": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+    "cliffhanger": "NOBLEWOMAN: Do you want the same punishment?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep24 rule pick @1:08.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 24,
+        "from": 53,
+        "to": 66
+      }
+    ],
+    "hook": "NOBLEWOMAN: Do you want the same punishment?",
+    "cliffhanger": "Juliana raises her head. Smudges of dark soot stain her fair cheek, but her piercing blue eyes burn with unwavering defiance and unyielding resolve as she stare",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep25 rule pick @1:20.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 25,
+        "from": 48,
+        "to": 74
+      }
+    ],
+    "hook": "JULIANA: Poison.",
+    "cliffhanger": "JULIANA: Alexander... why are you so angry?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep25 rule pick @0:18.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 25,
+        "from": 13,
+        "to": 38
+      }
+    ],
+    "hook": "Alexander's gloved fingers pull back the torn fabric of her cloak and sleeve, revealing a raw, bloody welt slashing across her bare shoulder.",
+    "cliffhanger": "ALEXANDER: The Dowager?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep26 rule pick @0:56.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 26,
+        "from": 25,
+        "to": 48
+      }
+    ],
+    "hook": "DOWAGER DUCHESS: Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?",
+    "cliffhanger": "DOWAGER DUCHESS: Where... where... Where did you get this ring? Speak to me!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep26 rule pick @1:30.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 26,
+        "from": 35,
+        "to": 48
+      }
+    ],
+    "hook": "A sharp, stunned gasp.",
+    "cliffhanger": "DOWAGER DUCHESS: Where... where... Where did you get this ring? Speak to me!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep27 rule pick @2:04.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 27,
+        "from": 80,
+        "to": 92
+      }
+    ],
+    "hook": "LADY CATHERINE: She admits she has been giving the Duchess poison in secret!",
+    "cliffhanger": "The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep27 rule pick @0:44.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 27,
+        "from": 24,
+        "to": 61
+      }
+    ],
+    "hook": "DOWAGER DUCHESS: What is your husband's name?",
+    "cliffhanger": "BLOND NOBLEMAN: And now we find an unknown maid alone beside her bed...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep28 rule pick @0:15.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 28,
+        "from": 14,
+        "to": 47
+      }
+    ],
+    "hook": "JULIANA: I did not poison her! Look at her eyes, the fever has broken!",
+    "cliffhanger": "CATHERINE: How convenient that the only person who can prove the poison exists...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep28 rule pick @1:53.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 28,
+        "from": 81,
+        "to": 93
+      }
+    ],
+    "hook": "JULIANA: Do not speak about my husband!",
+    "cliffhanger": "CATHERINE: Then perhaps you can explain every page to the magistrate...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep29 rule pick @0:40.1",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 29,
+        "from": 23,
+        "to": 59
+      }
+    ],
+    "hook": "JULIANA: You know that is a lie!",
+    "cliffhanger": "JULIANA: Mother...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep29 rule pick @1:26.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 29,
+        "from": 54,
+        "to": 68
+      }
+    ],
+    "hook": "The heavy iron door slams shut with a deafening metallic thud, and the massive exterior bolt grates locked.",
+    "cliffhanger": "JULIANA: They took my mother's ledger...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep30 rule pick @0:33.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 30,
+        "from": 18,
+        "to": 40
+      }
+    ],
+    "hook": "ELDER NOBLEMAN: Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!",
+    "cliffhanger": "CATHERINE: And if she claims she is a healer?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep30 rule pick @1:05.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 30,
+        "from": 34,
+        "to": 58
+      }
+    ],
+    "hook": "ELDER NOBLEMAN: A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber.",
+    "cliffhanger": "RUPERT: And Juliana?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep31 rule pick @2:11.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 31,
+        "from": 70,
+        "to": 85
+      }
+    ],
+    "hook": "CATHERINE: Enough!",
+    "cliffhanger": "Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep31 rule pick @0:10.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 31,
+        "from": 8,
+        "to": 26
+      }
+    ],
+    "hook": "CATHERINE: The great Lady Juliana Ashcroft.",
+    "cliffhanger": "CATHERINE: Do you remember?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep32 rule pick @0:43.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 32,
+        "from": 33,
+        "to": 59
+      }
+    ],
+    "hook": "CATHERINE: You still think you are better?!",
+    "cliffhanger": "CATHERINE: Your soldier?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep32 rule pick @1:59.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 32,
+        "from": 90,
+        "to": 113
+      }
+    ],
+    "hook": "CATHERINE: Silence! Silence!",
+    "cliffhanger": "CATHERINE: Then let's see how brave you are when it touches your skin!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep33 rule pick @1:52.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 33,
+        "from": 67,
+        "to": 89
+      }
+    ],
+    "hook": "MAID: I don't know!",
+    "cliffhanger": "MAID: She saved my brother...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep33 rule pick @1:08.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 33,
+        "from": 40,
+        "to": 65
+      }
+    ],
+    "hook": "The maid gasps in sheer terror, her chest heaving as tears stream.",
+    "cliffhanger": "LORD: Praying... or chanting?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep34 rule pick @0:35.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 34,
+        "from": 18,
+        "to": 42
+      }
+    ],
+    "hook": "JUDGE: Silence!",
+    "cliffhanger": "JUDGE: And did she speak words you could not understand?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep34 rule pick @1:25.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 34,
+        "from": 47,
+        "to": 70
+      }
+    ],
+    "hook": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury.",
+    "cliffhanger": "LADY JULIANA: What were their illnesses?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep35 rule pick @2:17.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 35,
+        "from": 65,
+        "to": 71
+      }
+    ],
+    "hook": "ALEXANDER: Someone ordered my men to die.",
+    "cliffhanger": "A sudden, ominous orchestral crescendo swells dramatically into silence.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep35 rule pick @0:37.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 35,
+        "from": 19,
+        "to": 40
+      }
+    ],
+    "hook": "ALEXANDER'S MOTHER: Alexander!",
+    "cliffhanger": "ALEXANDER'S MOTHER: A traitor?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep36 rule pick @0:41.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 36,
+        "from": 24,
+        "to": 57
+      }
+    ],
+    "hook": "ALEXANDER: They declared me dead.",
+    "cliffhanger": "ALEXANDER'S MOTHER: No...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep36 rule pick @1:57.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 36,
+        "from": 71,
+        "to": 93
+      }
+    ],
+    "hook": "ALEXANDER: You told them the truth!",
+    "cliffhanger": "A sudden dramatic metallic swell underscores the impending deadline.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep37 rule pick @2:14.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 37,
+        "from": 73,
+        "to": 78
+      }
+    ],
+    "hook": "LADY CLARISSA: Instead she married a nobody, played healer to peasants, challenged people above her. And now the whole county will watch her pay for it.",
+    "cliffhanger": "A deep, ominous cello rumble builds alongside the crackle of the fireplace into an unresolved, tension-filled cliffhanger sting before fading out.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep37 rule pick @1:45.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 37,
+        "from": 58,
+        "to": 78
+      }
+    ],
+    "hook": "JULIANA: I will not!",
+    "cliffhanger": "A deep, ominous cello rumble builds alongside the crackle of the fireplace into an unresolved, tension-filled cliffhanger sting before fading out.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep38 rule pick @1:00.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 38,
+        "from": 39,
+        "to": 56
+      }
+    ],
+    "hook": "JULIANA: I will not give them my husband.",
+    "cliffhanger": "A sharp, high-tension dramatic swell strikes and echoes out into silence alongside the fading toll of the distant church bells.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep38 rule pick @0:11.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 38,
+        "from": 8,
+        "to": 26
+      }
+    ],
+    "hook": "The Guard kneels down and slips a small loaf of rustic bread through the bottom gap between the iron bars, nudging it inside before withdrawing his gloved hand.",
+    "cliffhanger": "JULIANA: Do you even know what happened to me?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep39 rule pick @0:48.2",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 39,
+        "from": 29,
+        "to": 57
+      }
+    ],
+    "hook": "LOYALIST FIGHTER: Tell the Duke.",
+    "cliffhanger": "ALEXANDER: And I am bringing my wife home.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep40 rule pick @1:14.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 40,
+        "from": 37,
+        "to": 49
+      }
+    ],
+    "hook": "ELDER NOBLEMAN: And its witch will be dead.",
+    "cliffhanger": "CATHERINE: And you look better in silk than you ever did as an ignored cousin.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep41 rule pick @0:31.7",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 41,
+        "from": 20,
+        "to": 33
+      }
+    ],
+    "hook": "NOBLEMAN: She actually came back to the chapel.",
+    "cliffhanger": "JULIANA: You needed an entire chapel to feel powerful over one chained woman?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep42 rule pick @0:18.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 42,
+        "from": 9,
+        "to": 33
+      }
+    ],
+    "hook": "BLOND NOBLEMAN: Guards! Arrest this imposter!",
+    "cliffhanger": "ALEXANDER'S MOTHER: Let everyone hear me! This is my son... Alexander Ashburn. The rightful Duke of Ashburn!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep42 rule pick @0:49.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 42,
+        "from": 27,
+        "to": 33
+      }
+    ],
+    "hook": "His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence.",
+    "cliffhanger": "ALEXANDER'S MOTHER: Let everyone hear me! This is my son... Alexander Ashburn. The rightful Duke of Ashburn!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep43 rule pick @0:18.1",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 43,
+        "from": 15,
+        "to": 60
+      }
+    ],
+    "hook": "BLOND NOBLEMAN: Your Duke!",
+    "cliffhanger": "ALEXANDER: And when you believed I was dead...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep43 rule pick @1:12.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 43,
+        "from": 60,
+        "to": 85
+      }
+    ],
+    "hook": "ALEXANDER: And when you believed I was dead...",
+    "cliffhanger": "POLICE CONSTABLE: Going somewhere, Lord Sterling?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep44 rule pick @0:17.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 44,
+        "from": 12,
+        "to": 46
+      }
+    ],
+    "hook": "BLOND NOBLEMAN: Do something!",
+    "cliffhanger": "ALEXANDER: Did you?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep44 rule pick @0:46.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 44,
+        "from": 34,
+        "to": 53
+      }
+    ],
+    "hook": "CATHERINE: I was supposed to be your Duchess!",
+    "cliffhanger": "CATHERINE: Her?!",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep45 rule pick @0:22.9",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 45,
+        "from": 18,
+        "to": 37
+      }
+    ],
+    "hook": "JULIANA: You're the Duke?",
+    "cliffhanger": "CATHERINE: Alexander...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep45 rule pick @0:54.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 45,
+        "from": 39,
+        "to": 49
+      }
+    ],
+    "hook": "ALEXANDER: You poisoned my mother. You tortured my wife.",
+    "cliffhanger": "ALEXANDER: Before the Crown and before God...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep46 rule pick @1:18.1",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 46,
+        "from": 44,
+        "to": 69
+      }
+    ],
+    "hook": "JULIANA: Now a church calls my marriage a lie!",
+    "cliffhanger": "The guards slowly lower their weapon points away from the Duke.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep46 rule pick @0:20.6",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 46,
+        "from": 13,
+        "to": 27
+      }
+    ],
+    "hook": "HIGH PRIEST: You married this woman as a nameless beggar...",
+    "cliffhanger": "HIGH PRIEST: No licensed clergyman presided...",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep47 rule pick @1:03.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 47,
+        "from": 30,
+        "to": 54
+      }
+    ],
+    "hook": "CATHERINE: London closed its doors! My family disowned me!",
+    "cliffhanger": "CATHERINE: You expect me to scrub floors before these commoners?",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep47 rule pick @1:41.5",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 47,
+        "from": 54,
+        "to": 68
+      }
+    ],
+    "hook": "CATHERINE: You expect me to scrub floors before these commoners?",
+    "cliffhanger": "CATHERINE: I accept, Your Grace.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep48 rule pick @0:17.4",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 48,
+        "from": 10,
+        "to": 40
+      }
+    ],
+    "hook": "CATHERINE: Ten days for a decree to be undone.",
+    "cliffhanger": "CATHERINE: And make sure no one sees him arrive.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep48 rule pick @0:43.3",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 48,
+        "from": 26,
+        "to": 40
+      }
+    ],
+    "hook": "AGNES: My lady... the Duke has bailiffs watching every road out of the county.",
+    "cliffhanger": "CATHERINE: And make sure no one sees him arrive.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep49 rule pick @0:48.8",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 49,
+        "from": 22,
+        "to": 34
+      }
+    ],
+    "hook": "CATHERINE: Today went better than either of us planned for. The whole court watched you humiliate her.",
+    "cliffhanger": "CATHERINE: First, the hearing stays unresolved as long as possible. Every extension, every delay, every excuse to reconvene.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  },
+  {
+    "title": "Ep49 rule pick @0:01.0",
+    "source": "rules",
+    "segments": [
+      {
+        "ep": 49,
+        "from": 1,
+        "to": 22
+      }
+    ],
+    "hook": "Hinges creaking softly followed by the muffled thud of a heavy wooden door clicking shut.",
+    "cliffhanger": "CATHERINE: Today went better than either of us planned for. The whole court watched you humiliate her.",
+    "why": "Strongest keyword/emotion hook in the episode, cut on the highest cliffhanger signal.",
+    "trope": "other",
+    "scores": {}
+  }
+]

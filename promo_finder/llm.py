@@ -45,7 +45,14 @@ class LLM:
         self.concurrency = max(1, int(os.getenv("LLM_CONCURRENCY", "4") or 4))
         self.json_mode = True
         self.cache_dir = Path(cache_dir or os.getenv("LLM_CACHE_DIR", ROOT / ".cache" / "llm"))
-        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            self.cache_dir.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            self.cache_dir = Path("/tmp/cache/llm")
+            try:
+                self.cache_dir.mkdir(parents=True, exist_ok=True)
+            except OSError:
+                pass
         self._window: deque[tuple[float, int]] = deque()
         self._lock = threading.Lock()
         self.usage = {"calls": 0, "cached": 0, "prompt_tokens": 0, "completion_tokens": 0}

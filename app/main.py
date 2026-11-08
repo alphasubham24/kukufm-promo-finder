@@ -17,7 +17,7 @@ import zipfile
 from pathlib import Path
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -135,8 +135,14 @@ def boot():
 @app.on_event("startup")
 def _startup():
     for d in (UPLOAD_ROOT, RUNS_ROOT):
-        d.mkdir(parents=True, exist_ok=True)
-    threading.Thread(target=boot, daemon=True).start()
+        try:
+            d.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
+    if os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
+        boot()
+    else:
+        threading.Thread(target=boot, daemon=True).start()
 
 
 @app.get("/health")
@@ -147,6 +153,8 @@ def health():
 
 @app.get("/api/status")
 def status():
+    if not STATE["boot"]["ready"] and STATE["boot"]["error"] is None:
+        boot()
     b = STATE["boot"]
     return {"boot": {**b, "uptime": round(time.time() - b["started"], 1)}, "llm": STATE["llm"],
             "datasets": STATE["datasets"], "runs": STATE["runs"], "job": STATE["job"]}
@@ -253,6 +261,9 @@ def get_file(run_id: str, fname: str):
 
 @app.get("/")
 def index():
+    html_file = STATIC / "index.html"
+    if html_file.exists():
+        return HTMLResponse(html_file.read_text(encoding="utf-8"))
     return FileResponse(STATIC / "index.html")
 
 

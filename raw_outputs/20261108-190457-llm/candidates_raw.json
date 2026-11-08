@@ -1,0 +1,963 @@
+[
+  {
+    "title": "E1_BetrayalHook",
+    "segments": [
+      {
+        "ep": 1,
+        "from": 7,
+        "to": 31
+      }
+    ],
+    "hook": "You should turn around, Juliana.",
+    "cliffhanger": "You knew this before I walked through those doors!",
+    "why": "Shows the brutal family betrayal instantly and ends on Juliana\u2019s furious accusation, leaving viewers desperate to see her reaction.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 1-3"
+  },
+  {
+    "title": "E2_AbandonmentAccusation",
+    "segments": [
+      {
+        "ep": 2,
+        "from": 56,
+        "to": 73
+      }
+    ],
+    "hook": "You abandoned a woman who trusted you...",
+    "cliffhanger": "The orchestral score swells as Juliana stands defiantly, leaving her fate unknown.",
+    "why": "A raw, accusatory line pulls viewers in, and the final musical swell hints at a powerful showdown without revealing the outcome.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 1-3"
+  },
+  {
+    "title": "E3_StrangerIntervention",
+    "segments": [
+      {
+        "ep": 3,
+        "from": 58,
+        "to": 78
+      }
+    ],
+    "hook": "Take your hands off her.",
+    "cliffhanger": "Juliana shakes her head \u2018no\u2019, eyes locked on the mysterious stranger as tension hangs in the air.",
+    "why": "A sudden command erupts into a violent showdown, ending on a tense, unanswered stare that begs viewers to watch what happens next.",
+    "trope": "rescue",
+    "scores": {
+      "hook": 5,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 1-3"
+  },
+  {
+    "title": "Defiant Rejection",
+    "segments": [
+      {
+        "ep": 4,
+        "from": 41,
+        "to": 86
+      }
+    ],
+    "hook": "I will not become anyone's charity.",
+    "cliffhanger": "You have thrown yourself away!",
+    "why": "Shows Juliana\u2019s fierce independence and ends on Gerald\u2019s enraged outburst, leaving the conflict unresolved.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 4-6"
+  },
+  {
+    "title": "Ledger Tossed",
+    "segments": [
+      {
+        "ep": 5,
+        "from": 31,
+        "to": 57
+      }
+    ],
+    "hook": "Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain\u2011soaked courtyard.",
+    "cliffhanger": "Choose your next words carefully.",
+    "why": "A shocking act of cruelty followed by a chilling threat makes a self\u2011contained, high\u2011tension bite.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 4-6"
+  },
+  {
+    "title": "Cottage Door",
+    "segments": [
+      {
+        "ep": 6,
+        "from": 30,
+        "to": 80
+      }
+    ],
+    "hook": "The heavy wooden cottage door creaks open, revealing a dark, barren room.",
+    "cliffhanger": "It is not much.",
+    "why": "The eerie opening sets a tense mood, and the final line leaves viewers wondering if this modest shelter will be enough.",
+    "trope": "rescue",
+    "scores": {
+      "hook": 3,
+      "cliffhanger": 3,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 4-6"
+  },
+  {
+    "title": "Ep7: Husband's Silent Threat",
+    "segments": [
+      {
+        "ep": 7,
+        "from": 31,
+        "to": 45
+      }
+    ],
+    "hook": "I have enough influence to make a beggar disappear.",
+    "cliffhanger": "Gerald turns and flees, leaving the scarred bearded husband looming in the mud.",
+    "why": "A bold threat followed by the villain\u2019s sudden fear creates instant tension that a new viewer can grasp without prior context.",
+    "trope": "threat/violence",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 7-9"
+  },
+  {
+    "title": "Ep8: Beard Tension",
+    "segments": [
+      {
+        "ep": 8,
+        "from": 18,
+        "to": 43
+      }
+    ],
+    "hook": "You know more about healing than you let on.",
+    "cliffhanger": "Alexander smiles, \u201cWe\u2019ll see,\u201d leaving Juliana\u2019s offer to trim his beard hanging.",
+    "why": "A teasing line sparks curiosity, and the unresolved promise about the beard hints at deeper personal stakes.",
+    "trope": "romance/tension",
+    "scores": {
+      "hook": 3,
+      "cliffhanger": 3,
+      "standalone": 2,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 7-9"
+  },
+  {
+    "title": "Ep9: Rumor of the Duke",
+    "segments": [
+      {
+        "ep": 9,
+        "from": 58,
+        "to": 78
+      }
+    ],
+    "hook": "You cannot let the whole village start talking about you.",
+    "cliffhanger": "The Blond Nobleman whispers, \u201cImpossible,\u201d as the rumor about a scarred war veteran spreads.",
+    "why": "A stark warning about gossip followed by a nobleman's shaken reaction plants a dangerous secret that begs for answers.",
+    "trope": "gossip/danger",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 7-9"
+  },
+  {
+    "title": "E16\u2011PowerCatch\u2011GeraldReveal",
+    "segments": [
+      {
+        "ep": 16,
+        "from": 13,
+        "to": 49
+      }
+    ],
+    "hook": "Alexander catches the iron pipe mid\u2011air with his bare hand.",
+    "cliffhanger": "The thug shouts, \u201cHarrington! Gerald Harrington paid us!\u201d leaving Juliana\u2019s reaction unknown.",
+    "why": "Shows Alexander\u2019s lethal skill instantly, then drops a bombshell about Gerald\u2019s betrayal that hooks viewers.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 5,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 16-18"
+  },
+  {
+    "title": "E17\u2011Promise\u2011BleedingHand",
+    "segments": [
+      {
+        "ep": 17,
+        "from": 21,
+        "to": 40
+      }
+    ],
+    "hook": "Alexander drops to one knee, taking Juliana\u2019s trembling, bandaged hands.",
+    "cliffhanger": "Juliana whispers, \u201cI was frightened,\u201d leaving us wondering if Alexander can truly keep her safe.",
+    "why": "A tender promise is made in a moment of visible danger, then cuts before the reassurance is given, creating emotional tension.",
+    "trope": "romance/tension",
+    "scores": {
+      "hook": 3,
+      "cliffhanger": 3,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 16-18"
+  },
+  {
+    "title": "E18\u2011FireScream\u2011CeilingCollapse",
+    "segments": [
+      {
+        "ep": 18,
+        "from": 5,
+        "to": 36
+      }
+    ],
+    "hook": "Juliana screams, \u201cAlexander!\u201d as the bedroom erupts in flames.",
+    "cliffhanger": "Alexander shouts, \u201cJuliana, the ceiling is coming down!\u201d just as the fire threatens to crush them.",
+    "why": "Starts with a visceral scream and ends on a life\u2011or\u2011death moment, forcing viewers to wonder if they survive.",
+    "trope": "rescue",
+    "scores": {
+      "hook": 5,
+      "cliffhanger": 5,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 16-18"
+  },
+  {
+    "title": "Ep19_MotherPrisoner",
+    "segments": [
+      {
+        "ep": 19,
+        "from": 42,
+        "to": 53
+      }
+    ],
+    "hook": "My mother is a prisoner in her own house.",
+    "cliffhanger": "The heavy wooden barn doors creak open as Alexander steps into lantern light, leaving his next move unknown.",
+    "why": "A shocking family betrayal is revealed instantly, then the scene cuts just as Alexander prepares to act, urging viewers to find out his plan.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 19-21"
+  },
+  {
+    "title": "Ep20_DuellingDuchy",
+    "segments": [
+      {
+        "ep": 20,
+        "from": 14,
+        "to": 33
+      }
+    ],
+    "hook": "Once my cousin Alexander's death is formally sealed by the Crown...",
+    "cliffhanger": "Rupert promises the peasants will learn their place when Catherine wears the ducal crown, leaving their ruthless scheme hanging.",
+    "why": "The hook drops a major power\u2011vacuum revelation, then the segment ends on the villains' ominous promise, compelling viewers to see how they\u2019ll seize the title.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 3
+    },
+    "source": "llm",
+    "batch": "episodes 19-21"
+  },
+  {
+    "title": "Ep21_TobyCrisis",
+    "segments": [
+      {
+        "ep": 21,
+        "from": 4,
+        "to": 42
+      }
+    ],
+    "hook": "Lady Juliana! Please! You have to help me, Toby is dying!",
+    "cliffhanger": "Juliana crushes the dried herbs and pours steaming water over them, but the scene cuts before we see if the remedy saves the boy.",
+    "why": "An urgent plea grabs attention, then the promo stops at the critical moment of the herbal cure, leaving the child's fate in suspense.",
+    "trope": "rescue",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 19-21"
+  },
+  {
+    "title": "EP22_Threat_to_Maid",
+    "segments": [
+      {
+        "ep": 22,
+        "from": 46,
+        "to": 74
+      }
+    ],
+    "hook": "HOUSEKEEPER (Stern, Dismissive): \u201cThen prove it. The manor has no use for useless girls.\u201d",
+    "cliffhanger": "LADY JULIANA (Shocked, Murmuring): \u201cThis isn\u2019t ordinary fever.\u201d \u2013 her horrified realization leaves the cause of the Duchess\u2019s illness unknown.",
+    "why": "A brutal threat instantly shows Juliana\u2019s danger, then the sudden, eerie diagnosis leaves viewers desperate to know the poison\u2019s source.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 22-24"
+  },
+  {
+    "title": "EP23_Poison_Realization",
+    "segments": [
+      {
+        "ep": 23,
+        "from": 27,
+        "to": 57
+      }
+    ],
+    "hook": "LADY JULIANA (Breathless, Reverent): \u201cMother.\u201d",
+    "cliffhanger": "SOUND FX (Sudden muffled thump and heavy footsteps echoing from the hallway) \u2013 the imminent arrival of an unknown intruder stops the antidote in its tracks.",
+    "why": "A single, shocked word hints a deep secret, then the looming footsteps create a tense \u201csomeone\u2019s coming\u201d moment that begs a click.",
+    "trope": "secret identity",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 22-24"
+  },
+  {
+    "title": "EP24_Riding_Crop_Strike",
+    "segments": [
+      {
+        "ep": 24,
+        "from": 32,
+        "to": 66
+      }
+    ],
+    "hook": "ACTION: The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+    "cliffhanger": "LADY JULIANA (V.O., Steely, Unstoppable): \u201cI will return. You cannot stop the healer.\u201d \u2013 her defiant promise leaves the outcome of her secret plan unknown.",
+    "why": "A visceral whipping grabs attention, then Juliana\u2019s hidden resolve hints a daring comeback, leaving viewers eager to see if she can outwit her oppressor.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 22-24"
+  },
+  {
+    "title": "Ep25_HandGrab",
+    "segments": [
+      {
+        "ep": 25,
+        "from": 20,
+        "to": 51
+      }
+    ],
+    "hook": "Alexander steps directly into Juliana\u2019s space, firmly taking her hand \u2013 a sudden, intimate grab that shocks the viewer.",
+    "cliffhanger": "Alexander\u2019s hand drops and clenches into a white\u2011knuckled fist as the tension spikes, leaving us wondering what he\u2019s about to do.",
+    "why": "A visceral physical hook followed by the poisonous secret creates instant stakes that a new viewer can grasp without prior context.",
+    "trope": "violence",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 25-27"
+  },
+  {
+    "title": "Ep26_RingReveal",
+    "segments": [
+      {
+        "ep": 26,
+        "from": 34,
+        "to": 48
+      }
+    ],
+    "hook": "Juliana\u2019s hand, glinting with a distinctive family ring, comes into view \u2013 the camera lingers on the unexpected jewelry.",
+    "cliffhanger": "The Dowager Duchess lunges, demanding \u201cWhere\u2026 where\u2026 where did you get this ring?\u201d \u2013 the answer is still unknown.",
+    "why": "The mysterious ring instantly raises questions of identity and betrayal, and the Duchess\u2019s frantic demand leaves the mystery hanging.",
+    "trope": "secret identity",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 25-27"
+  },
+  {
+    "title": "Ep27_RingMystery",
+    "segments": [
+      {
+        "ep": 27,
+        "from": 1,
+        "to": 25
+      }
+    ],
+    "hook": "The Dowager Duchess gasps, \u201cThis ring\u2026\u201d, instantly flagging a hidden connection.",
+    "cliffhanger": "A sudden, violent pounding on the double doors erupts, promising an imminent confrontation.",
+    "why": "A single line about the ring sparks intrigue, and the door\u2011banging cliffhanger forces viewers to wonder who\u2019s coming and why.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 25-27"
+  },
+  {
+    "title": "Duchess Collapse \u2192 Identity Reveal",
+    "segments": [
+      {
+        "ep": 28,
+        "from": 35,
+        "to": 74
+      }
+    ],
+    "hook": "The Duchess collapses back onto the pillows, coughing violently and clutching her chest.",
+    "cliffhanger": "Catherine triumphantly declares, \u201cLady Juliana Ashcroft.\u201d",
+    "why": "A sudden collapse throws the court into chaos, then the villain shatters Juliana\u2019s secret identity, leaving viewers desperate to see her fate.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 3
+    },
+    "source": "llm",
+    "batch": "episodes 28-30"
+  },
+  {
+    "title": "Cell Door Slam & Vow",
+    "segments": [
+      {
+        "ep": 29,
+        "from": 53,
+        "to": 70
+      }
+    ],
+    "hook": "Juliana (Crying Out, Broken): Please!",
+    "cliffhanger": "Juliana vows, \u201cThey will not take Alexander from me.\u201d",
+    "why": "The brutal slam of the cell door and a desperate plea instantly hook the viewer, then her fierce promise raises the stakes of her imprisonment.",
+    "trope": "rescue",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 28-30"
+  },
+  {
+    "title": "Thrust & Witchcraft Plot",
+    "segments": [
+      {
+        "ep": 30,
+        "from": 17,
+        "to": 38
+      }
+    ],
+    "hook": "Elder Nobleman (Fierce, Venomous): Then make certain she isn\u2019t! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!",
+    "cliffhanger": "Elder Nobleman (Cold, Calculating): Give those facts to a magistrate in the right order, and she becomes a poisoner.",
+    "why": "A violent thrust grabs attention, then the cold scheming to frame Juliana as a witch leaves the audience hanging on the impending trial.",
+    "trope": "secret identity",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 28-30"
+  },
+  {
+    "title": "31-iron-threat",
+    "segments": [
+      {
+        "ep": 31,
+        "from": 66,
+        "to": 85
+      }
+    ],
+    "hook": "CATHERINE (Enraged Scream): \"Enough!\"",
+    "cliffhanger": "CATHERINE lifts the searing branding rod, the glowing tip stopping just inches from Juliana's eye.",
+    "why": "Shows the brutal power play and ends on a deadly brink that makes viewers wonder if Juliana will survive.",
+    "trope": "violence",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 31-33"
+  },
+  {
+    "title": "32-iron-loom",
+    "segments": [
+      {
+        "ep": 32,
+        "from": 70,
+        "to": 112
+      }
+    ],
+    "hook": "CATHERINE (Indignant, Sharp): \"You know nothing about my world.\"",
+    "cliffhanger": "CATHERINE hoists the searing branding rod over Juliana, the iron poised to strike.",
+    "why": "The taunt sets a fierce conflict and the looming brand leaves the outcome hanging, pulling viewers in.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 31-33"
+  },
+  {
+    "title": "33-testimony-coercion",
+    "segments": [
+      {
+        "ep": 33,
+        "from": 46,
+        "to": 78
+      }
+    ],
+    "hook": "MAID (Crying, Shattered): \"What do you want me to say?!\"",
+    "cliffhanger": "LORD (Cold, Merciless): \"That will be your testimony.\"",
+    "why": "A desperate plea under a cruel threat creates immediate tension, ending on the forced testimony that promises dire consequences.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 31-33"
+  },
+  {
+    "title": "Juliana Defiance",
+    "segments": [
+      {
+        "ep": 34,
+        "from": 76,
+        "to": 111
+      }
+    ],
+    "hook": "Herbs are not magic! They are medicine!",
+    "cliffhanger": "The Judge rises to his full height behind the bench, towering over the silent court \u2013 his verdict hanging in the air.",
+    "why": "A fierce declaration of innocence followed by the judge looming over her creates instant tension and leaves the outcome unknown.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 34-36"
+  },
+  {
+    "title": "Dead Man's Secret",
+    "segments": [
+      {
+        "ep": 35,
+        "from": 58,
+        "to": 71
+      }
+    ],
+    "hook": "Because someone wanted you to believe I was dead.",
+    "cliffhanger": "A sudden, ominous orchestral crescendo swells dramatically into silence, hinting at a hidden enemy.",
+    "why": "A shocking confession about a fabricated death instantly hooks viewers, and the music cue leaves the conspiracy unresolved.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 34-36"
+  },
+  {
+    "title": "Vengeance Countdown",
+    "segments": [
+      {
+        "ep": 36,
+        "from": 99,
+        "to": 118
+      }
+    ],
+    "hook": "\u2026and killing my wife afterward.",
+    "cliffhanger": "\u2026their dead Duke is coming home.",
+    "why": "A chilling admission of murder sets a ticking clock, and the final ominous promise about the dead Duke leaves the audience desperate for the next move.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 34-36"
+  },
+  {
+    "title": "Ep37\u2011Betrayal Reveal",
+    "segments": [
+      {
+        "ep": 37,
+        "from": 13,
+        "to": 31
+      }
+    ],
+    "hook": "Juliana's execution comes after the wedding.",
+    "cliffhanger": "Clarissa whispers, \u201cAnd after the ceremony\u2026\u201d, hinting at a deadly surprise.",
+    "why": "A cold viewer instantly sees the cruel plan to marry and then kill Juliana, and is left hanging on the ominous promise.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 37-39"
+  },
+  {
+    "title": "Ep38\u2011Bell Alarm",
+    "segments": [
+      {
+        "ep": 38,
+        "from": 42,
+        "to": 56
+      }
+    ],
+    "hook": "Juliana\u2019s eyes snap wide open in sudden realization as a deep resonant toll reverberates from above.",
+    "cliffhanger": "A sharp, high\u2011tension swell erupts as she whispers \u201cAlexander\u2026\u201d, leaving the fate of the wedding and her execution unknown.",
+    "why": "The sudden bell sound instantly raises stakes, and the cut on the musical sting leaves the viewer desperate to know what happens next.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 37-39"
+  },
+  {
+    "title": "Ep39\u2011Duke\u2019s Return",
+    "segments": [
+      {
+        "ep": 39,
+        "from": 21,
+        "to": 55
+      }
+    ],
+    "hook": "The driver leaps off the cart, striking the sentry across the chest and tackling him violently.",
+    "cliffhanger": "Alexander declares, \u201cI am taking back my house,\u201d then the screen cuts to black just as his resolve peaks.",
+    "why": "Violent action grabs attention, and the bold proclamation of reclaiming his house leaves the outcome of his assault unresolved.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 5,
+      "cliffhanger": 5,
+      "standalone": 4,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 37-39"
+  },
+  {
+    "title": "40\u2011WitchThreat",
+    "segments": [
+      {
+        "ep": 40,
+        "from": 13,
+        "to": 38
+      }
+    ],
+    "hook": "She won't be seeing anything for long.",
+    "cliffhanger": "And its witch will be dead.",
+    "why": "Immediate menace against Juliana hooks viewers, and the looming execution threat ends on a deadly promise.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 40-42"
+  },
+  {
+    "title": "41\u2011CatherineShowdown",
+    "segments": [
+      {
+        "ep": 41,
+        "from": 6,
+        "to": 31
+      }
+    ],
+    "hook": "I want everyone to see what happens to a woman who dares defy this family.",
+    "cliffhanger": "Juliana: \"You needed an entire chapel to feel powerful over one chained woman?\"",
+    "why": "Catherine\u2019s cruel proclamation and Juliana\u2019s defiant retort create a tense stand\u2011off that stops just before any resolution.",
+    "trope": "humiliation",
+    "scores": {
+      "hook": 5,
+      "cliffhanger": 4,
+      "standalone": 4,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 40-42"
+  },
+  {
+    "title": "42\u2011AlexanderRevenge",
+    "segments": [
+      {
+        "ep": 42,
+        "from": 22,
+        "to": 36
+      }
+    ],
+    "hook": "You already know.",
+    "cliffhanger": "And now, Rupert... we settle what you stole.",
+    "why": "Alexander\u2019s cold reveal and the final threat to Rupert leave the audience craving the inevitable showdown.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 40-42"
+  },
+  {
+    "title": "43_TreasonHook",
+    "segments": [
+      {
+        "ep": 43,
+        "from": 1,
+        "to": 47
+      }
+    ],
+    "hook": "You're lying!",
+    "cliffhanger": "Alexander: \"Read the names.\"",
+    "why": "A frantic accusation erupts and the promise of damning evidence leaves viewers desperate to hear the names.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 43-45"
+  },
+  {
+    "title": "44_RejectionWalk",
+    "segments": [
+      {
+        "ep": 44,
+        "from": 3,
+        "to": 46
+      }
+    ],
+    "hook": "Lord Henry Sterling, you are under arrest by order of the Crown.",
+    "cliffhanger": "Alexander (Skeptical, Cutting): \"Did you?\"",
+    "why": "The bold arrest sets a tense tone, then Alexander\u2019s cold question to Catherine leaves the fate of their love hanging.",
+    "trope": "romance/tension",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 43-45"
+  },
+  {
+    "title": "45_DukeAndDuchess",
+    "segments": [
+      {
+        "ep": 45,
+        "from": 14,
+        "to": 30
+      },
+      {
+        "ep": 45,
+        "from": 57,
+        "to": 65
+      }
+    ],
+    "hook": "Juliana (Emotional, Realizing): \"It's you.\"",
+    "cliffhanger": "High Priest (Commanding, Severe): \"These vows were never entered into the Royal Matrimonial Register.\"",
+    "why": "A heartfelt reunion instantly grabs attention, then the sudden legal challenge shatters the triumph, forcing viewers to wonder what will happen next.",
+    "trope": "secret identity",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 5,
+      "standalone": 4,
+      "spoiler_risk": 3
+    },
+    "source": "llm",
+    "batch": "episodes 43-45"
+  },
+  {
+    "title": "Royal Seizure Threat",
+    "segments": [
+      {
+        "ep": 46,
+        "from": 7,
+        "to": 15
+      },
+      {
+        "ep": 46,
+        "from": 63,
+        "to": 70
+      }
+    ],
+    "hook": "By Royal command, this sanctuary is placed under immediate Crown seizure.",
+    "cliffhanger": "Ten days, Duke. Choose your witnesses well.",
+    "why": "The priest\u2019s sudden decree shatters the wedding, then a looming ten\u2011day deadline leaves the Duke\u2019s fate hanging.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 46-48"
+  },
+  {
+    "title": "Ashbourne Confrontation",
+    "segments": [
+      {
+        "ep": 47,
+        "from": 26,
+        "to": 62
+      }
+    ],
+    "hook": "You dare show your face in Ashbourne courtyard?",
+    "cliffhanger": "One complaint from the housekeeper, and you are cast out with nothing.",
+    "why": "A bold challenge in a hostile courtyard escalates into a chilling ultimatum that forces the audience to wonder who will survive.",
+    "trope": "family cruelty",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 46-48"
+  },
+  {
+    "title": "Catherine's Vengeful Plot",
+    "segments": [
+      {
+        "ep": 48,
+        "from": 22,
+        "to": 36
+      }
+    ],
+    "hook": "Everyone in that chapel saw me humiliated today.",
+    "cliffhanger": "That is precisely your job tonight.",
+    "why": "Catherine\u2019s venomous confession of humiliation instantly grabs attention, then a secretive order leaves viewers hanging on what dark move she\u2019ll make.",
+    "trope": "revenge",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 1
+    },
+    "source": "llm",
+    "batch": "episodes 46-48"
+  },
+  {
+    "title": "Conspiracy & Exposure",
+    "segments": [
+      {
+        "ep": 49,
+        "from": 45,
+        "to": 56
+      },
+      {
+        "ep": 50,
+        "from": 35,
+        "to": 38
+      }
+    ],
+    "hook": "If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?",
+    "cliffhanger": "Father Thomas warns that the pact hinges on Catherine\u2019s silence, then Agnes bursts into the room and gasps at their illicit embrace \u2013 will the secret be exposed?",
+    "why": "Shows a high\u2011stakes treason pact and an immediate, shocking discovery, giving a cold viewer instant drama and a question that demands a click.",
+    "trope": "betrayal",
+    "scores": {
+      "hook": 4,
+      "cliffhanger": 4,
+      "standalone": 3,
+      "spoiler_risk": 2
+    },
+    "source": "llm",
+    "batch": "episodes 49-50"
+  }
+]
