@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promo Finder</title>
+<style>
+:root{
+  --bg:#f6f5f2;--panel:#ffffff;--ink:#1c1b19;--muted:#6b6862;--line:#e4e1da;
+  --accent:#d6336c;--accent-ink:#fff;--ok:#2f9e44;--warn:#e8590c;--err:#c92a2a;--chip:#f1efe9;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#141312;--panel:#1d1c1a;--ink:#ecebe7;--muted:#9a978f;--line:#2e2c29;
+  --accent:#f06595;--accent-ink:#141312;--ok:#51cf66;--warn:#ff922b;--err:#ff6b6b;--chip:#26241f;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+button,select,input{font:inherit}
+a{color:var(--accent)}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+header h1{font-size:20px;margin:0;letter-spacing:-.01em}
+.logo{width:30px;height:30px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:var(--accent-ink);font-weight:800}
+.chip{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:12px;color:var(--muted);white-space:nowrap}
+.chip.ok{color:var(--ok)} .chip.warn{color:var(--warn)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:end}
+label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
+select,input[type=text]{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;min-width:180px}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:8px 16px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.bar{height:6px;background:var(--chip);border-radius:6px;overflow:hidden;margin:10px 0}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .4s}
+.log{font:12px/1.5 ui-monospace,Menlo,monospace;color:var(--muted);max-height:140px;overflow:auto;white-space:pre-wrap}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:14px;overflow-x:auto}
+.tab{padding:8px 14px;cursor:pointer;border-bottom:2px solid transparent;color:var(--muted);white-space:nowrap}
+.tab.on{color:var(--ink);border-color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.card h3{margin:0 0 6px;font-size:16px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.rank{font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums}
+.score{margin-left:auto;font-weight:700;font-variant-numeric:tabular-nums}
+.cut{font:13px ui-monospace,Menlo,monospace;background:var(--chip);border-radius:6px;padding:2px 8px;display:inline-block;margin:2px 4px 2px 0}
+.kv{display:grid;grid-template-columns:100px 1fr;gap:4px 10px;font-size:14px;margin:8px 0}
+.kv b{color:var(--muted);font-weight:500}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:6px}
+.script{font-size:13px;margin-top:8px;border-left:2px solid var(--line);padding-left:10px}
+.script div{margin:2px 0}.script .t{color:var(--muted);font:12px ui-monospace,Menlo,monospace;margin-right:6px}
+.script .k{font-size:11px;color:var(--muted);text-transform:uppercase;margin-right:4px}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--chip);border-radius:10px;padding:10px 12px}.stat b{display:block;font-size:22px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid var(--line);padding:6px;text-align:left;vertical-align:top}
+/* boot loader */
+#boot{position:fixed;inset:0;background:var(--bg);display:grid;place-items:center;z-index:10;transition:opacity .5s}
+#boot.hide{opacity:0;pointer-events:none}
+.bootbox{width:min(440px,calc(100vw - 32px))}
+.spinner{width:44px;height:44px;border-radius:50%;border:3px solid var(--line);border-top-color:var(--accent);animation:spin 0.9s linear infinite;margin-bottom:18px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.step{display:flex;gap:10px;align-items:flex-start;padding:6px 0;color:var(--muted)}
+.step .ic{width:18px;flex:none;text-align:center}
+.step.done{color:var(--ink)}.step.done .ic{color:var(--ok)}
+.step.running{color:var(--ink)}.step.error .ic,.err{color:var(--err)}
+.step small{display:block;color:var(--muted);font-size:12px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (max-width:600px){.kv{grid-template-columns:1fr}.score{margin-left:0}}
+</style>
+</head>
+<body>
+<div id="boot">
+  <div class="bootbox">
+    <div class="spinner" id="bootSpin"></div>
+    <h2 style="margin:0 0 4px">Promo Finder is starting</h2>
+    <p class="muted" id="bootSub" style="margin:0 0 14px">Connecting to server…</p>
+    <div id="bootSteps"></div>
+    <div class="bar"><i id="bootBar"></i></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <header>
+    <div class="logo">▶</div>
+    <h1>Promo Finder</h1>
+    <span class="chip" id="modelChip">model</span>
+    <span class="chip" id="keyChip">key</span>
+  </header>
+
+  <div class="panel">
+    <div class="row">
+      <label>Show<select id="dataset"></select></label>
+      <label>Mode<select id="mode">
+        <option value="auto">Auto (LLM if key set)</option>
+        <option value="llm">LLM + rules</option>
+        <option value="rules">Rules only (baseline)</option>
+      </select></label>
+      <button class="btn" id="runBtn">Find promos</button>
+      <span class="muted" id="dsInfo" style="font-size:13px"></span>
+    </div>
+    <details style="margin-top:10px"><summary>Upload a new show (.txt screenplays or a .zip)</summary>
+      <div class="row" style="margin-top:8px">
+        <label>Show name<input type="text" id="upName" placeholder="my-new-show"></label>
+        <input type="file" id="upFiles" multiple accept=".txt,.zip">
+        <button class="btn ghost" id="upBtn">Upload</button>
+        <span id="upMsg" class="muted" style="font-size:13px"></span>
+      </div>
+    </details>
+    <div id="jobBox" style="display:none">
+      <div class="bar"><i id="jobBar"></i></div>
+      <div class="log" id="jobLog"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="row">
+      <label>Results from run<select id="runSel" style="min-width:300px"></select></label>
+      <span id="dl" style="font-size:13px"></span>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <div class="tab on" data-t="promos">Ranked promos</div>
+    <div class="tab" data-t="plan">Posting plan</div>
+    <div class="tab" data-t="quality">Quality check</div>
+  </div>
+  <div id="view"><p class="muted">No results yet. Run the tool or pick a previous run.</p></div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let status = null, current = null, tab = "promos", lastJobRunning = false, booted = false;
+
+async function poll(){
+  try{
+    const r = await fetch("/api/status"); status = await r.json();
+    renderBoot(); renderHeader(); renderJob();
+  }catch(e){ $("#bootSub").textContent = "Waiting for the container to come up…"; }
+  setTimeout(poll, status && status.job.running ? 1200 : (booted ? 5000 : 500));
+}
+
+function renderBoot(){
+  const b = status.boot, steps = b.steps;
+  const done = steps.filter(s=>s.status==="done").length;
+  $("#bootBar").style.width = (100*done/steps.length)+"%";
+  $("#bootSteps").innerHTML = steps.map(s=>`<div class="step ${s.status}"><span class="ic">${
+    s.status==="done"?"✓":s.status==="running"?'<span class="dot"></span>':s.status==="error"?"✕":"○"}</span>
+    <span>${esc(s.label)}<small>${esc(s.detail)}</small></span></div>`).join("");
+  if(b.error){ $("#bootSub").innerHTML = `<span class="err">Boot failed: ${esc(b.error)}</span>`; $("#bootSpin").style.display="none"; return; }
+  $("#bootSub").textContent = `Warming up… ${b.uptime}s`;
+  if(b.ready && !booted){
+    booted = true;
+    setTimeout(()=>$("#boot").classList.add("hide"), 350);
+    fillSelectors();
+    if(status.runs.length) loadRun(status.runs[0].run_id);
+  }
+}
+
+function renderHeader(){
+  const l = status.llm || {};
+  $("#modelChip").textContent = (l.provider ? l.provider + " · " : "") + (l.model || "model");
+  $("#keyChip").textContent = l.key_configured ? "credentials ✓" : "no credentials · rules only";
+  $("#keyChip").className = "chip " + (l.key_configured ? "ok" : "warn");
+}
+
+function fillSelectors(){
+  const ds = status.datasets, sel = $("#dataset"), prev = sel.value;
+  sel.innerHTML = Object.entries(ds).map(([k,v])=>`<option value="${esc(k)}">${esc(k)} (${v.episodes??v.files} eps, ${v.origin})</option>`).join("");
+  if(prev && ds[prev]) sel.value = prev;
+  showDs();
+  const rs = $("#runSel"), prevRun = rs.value;
+  rs.innerHTML = status.runs.map(r=>`<option value="${esc(r.run_id)}">${esc(r.run_id)} · ${esc(r.show)} · ${esc(r.mode)}${r.model?" · "+esc(r.model):""}${r.origin==="bundled"?" · bundled":""}</option>`).join("");
+  if(prevRun) rs.value = prevRun;
+}
+function showDs(){ const d = status.datasets[$("#dataset").value]; $("#dsInfo").textContent = d ? `${d.episodes??d.files} episodes · ${d.minutes??"?"} min of screen time` : ""; }
+
+function renderJob(){
+  const j = status.job;
+  $("#runBtn").disabled = j.running || !status.boot.ready;
+  if(!j.running && !j.log.length) return;
+  $("#jobBox").style.display = "block";
+  const order = ["queued","parse","signals","candidates","validate","rank","write","done"];
+  const i = Math.max(0, order.indexOf(j.step));
+  const frac = j.step==="candidates" ? (2 + 3*j.frac)/8 : (i+ (j.step==="done"?0:0.5))/ (order.length-1);
+  $("#jobBar").style.width = Math.min(100, 100*frac) + "%";
+  $("#jobLog").textContent = j.log.map(l=>`${l.t}  ${l.msg}`).join("\n");
+  $("#jobLog").scrollTop = 1e9;
+  if(lastJobRunning && !j.running){
+    fillSelectors();
+    if(j.run_id){ $("#runSel").value = j.run_id; loadRun(j.run_id); }
+  }
+  lastJobRunning = j.running;
+}
+
+async function loadRun(id){
+  $("#runSel").value = id;
+  const r = await fetch(`/api/runs/${encodeURIComponent(id)}`); current = await r.json();
+  $("#dl").innerHTML = ["report.md","promos.csv","promos.json","quality.json","llm_responses.json"]
+    .map(f=>`<a href="/api/runs/${encodeURIComponent(id)}/file/${f}">${f}</a>`).join(" · ");
+  render();
+}
+
+function render(){
+  if(!current){ return; }
+  const v = $("#view");
+  if(tab==="promos") v.innerHTML = current.promos.map(cardHtml).join("") || "<p class=muted>No promos.</p>";
+  if(tab==="plan") v.innerHTML = planHtml();
+  if(tab==="quality") v.innerHTML = qualityHtml();
+}
+
+function cardHtml(p){
+  const l = p.llm_scores || {}, r = p.rule_scores;
+  const cuts = p.segments.map(s=>`<span class="cut">Ep ${s.episode} · ${s.start} → ${s.end}</span>`).join("");
+  const script = p.script.map((seg,i)=>`<div class="muted" style="margin-top:6px">Segment ${i+1} — Ep ${p.segments[i].episode}</div>`+
+    seg.map(b=>`<div><span class="t">${b.t}</span>${b.kind==="DIALOGUE"?`<b>${esc(b.speaker)}</b> <span class=muted>(${esc(b.emotion)})</span> ${esc(b.text)}`:`<span class="k">${esc(b.kind)}</span>${esc(b.text)}`}</div>`).join("")).join("");
+  return `<div class="card">
+    <h3><span class="rank">#${p.rank}</span> ${esc(p.title)} <span class="score">${p.rank_score}</span></h3>
+    <div>${cuts}<span class="muted" style="font-size:13px">${p.total_duration}s</span></div>
+    <div class="kv"><b>Hook</b><span>${esc(p.hook)}</span><b>Cliffhanger</b><span>${esc(p.cliffhanger)}</span><b>Why</b><span>${esc(p.why)}</span>
+    ${p.post_reason?`<b>Post #${p.post_position}</b><span>${esc(p.post_reason)}</span>`:""}</div>
+    <div class="chips"><span class="chip">${esc(p.trope)}</span>
+      ${l.hook?`<span class="chip">LLM hook ${l.hook}/5</span><span class="chip">cliff ${l.cliffhanger}/5</span><span class="chip">standalone ${l.standalone}/5</span><span class="chip">spoiler ${l.spoiler_risk}/5</span>`:""}
+      <span class="chip">rules hook ${r.hook} · cliff ${r.cliffhanger}</span>
+      ${p.flags.map(f=>`<span class="chip warn">${esc(f)}</span>`).join("")}</div>
+    <details><summary>Script for this cut</summary><div class="script">${script}</div></details>
+  </div>`;
+}
+
+function planHtml(){
+  const pl = current.editor_plan || {};
+  if(!pl.post_order) return `<div class="panel muted">${pl.error?esc(pl.error):"Posting plan is produced in LLM mode only. Rules mode ranks by score alone."}</div>`;
+  const byId = Object.fromEntries(current.promos.map(p=>[p.id,p]));
+  return `<div class="panel"><p>${esc(pl.launch_note)}</p><ol>${pl.post_order.map(o=>{const p=byId[o.id]||{};
+    return `<li><b>${esc(o.id)}</b> ${esc(p.title||"")} <span class=muted>(Ep ${(p.segments||[]).map(s=>s.episode).join("+")})</span> — ${esc(o.reason)}</li>`}).join("")}</ol>
+    ${(pl.concerns||[]).length?`<h4>Concerns</h4><ul>${pl.concerns.map(c=>`<li><b>${esc(c.id)}</b> ${esc(c.issue)}</li>`).join("")}</ul>`:""}</div>`;
+}
+
+function qualityHtml(){
+  const q = current.quality, m = current.meta;
+  const stat = (k,v)=>`<div class="stat"><span class="muted" style="font-size:12px">${k}</span><b>${v}</b></div>`;
+  return `<div class="panel"><div class="grid">
+    ${stat("Raw candidates", q.raw_candidates)}${stat("Valid cuts", q.valid)}${stat("Rejected", q.rejected_invalid)}
+    ${stat("Duplicates dropped", q.dropped_duplicates)}${stat("Final promos", q.final)}
+    ${stat("Episodes covered", `${q.episodes_with_a_promo}/${q.episodes}`)}${stat("Avg length", q.duration_sec.mean+"s")}
+    ${stat("LLM tokens", (m.llm_usage.prompt_tokens+m.llm_usage.completion_tokens).toLocaleString())}</div>
+    <p class="muted" style="font-size:13px">Episodes with no promo: ${q.episodes_without_promo.join(", ")||"none"} · flags: ${esc(JSON.stringify(q.flag_counts))}</p></div>
+    <div class="panel"><h4 style="margin-top:0">Rules vs LLM disagreements (review these by hand)</h4>
+    ${q.rules_vs_llm_disagreements.length?`<table><tr><th>Promo</th><th>Dim</th><th>LLM</th><th>Rules</th><th>Note</th></tr>${q.rules_vs_llm_disagreements.map(d=>`<tr><td>${d.id}</td><td>${d.dimension}</td><td>${d.llm}/5</td><td>${d.rules}</td><td>${esc(d.note)}</td></tr>`).join("")}</table>`:"<p class=muted>None (or rules-only run).</p>"}</div>
+    <div class="panel"><h4 style="margin-top:0">Rejected candidates</h4>
+    ${q.rejection_reasons.length?`<table><tr><th>Title</th><th>Reason</th></tr>${q.rejection_reasons.map(r=>`<tr><td>${esc(r.title)}</td><td>${esc(r.reason)}</td></tr>`).join("")}</table>`:"<p class=muted>None.</p>"}</div>`;
+}
+
+$("#tabs").onclick = e => { const t = e.target.closest(".tab"); if(!t) return;
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on", x===t)); tab = t.dataset.t; render(); };
+$("#dataset").onchange = showDs;
+$("#runSel").onchange = e => loadRun(e.target.value);
+$("#runBtn").onclick = async () => {
+  const r = await fetch("/api/run",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({dataset:$("#dataset").value, mode:$("#mode").value})});
+  if(!r.ok){ alert((await r.json()).detail); return; }
+  lastJobRunning = true; $("#jobBox").style.display="block";
+};
+$("#upBtn").onclick = async () => {
+  const fs = $("#upFiles").files; if(!fs.length){ $("#upMsg").textContent="Pick files first"; return; }
+  const fd = new FormData(); fd.append("name", $("#upName").value || "uploaded-show");
+  for(const f of fs) fd.append("files", f);
+  $("#upMsg").textContent = "Uploading…";
+  const r = await fetch("/api/upload",{method:"POST",body:fd}); const j = await r.json();
+  if(!r.ok){ $("#upMsg").textContent = j.detail; return; }
+  $("#upMsg").textContent = `Added ${j.dataset} (${j.episodes} episodes)`;
+  status = await (await fetch("/api/status")).json(); fillSelectors(); $("#dataset").value = j.dataset; showDs();
+};
+poll();
+</script>
+</body>
+</html>

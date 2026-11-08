@@ -1,0 +1,60 @@
+[
+  {"id": "G1", "by": "human", "segments": [{"episode": 1, "start": "00:35.40", "end": "01:23.60"}],
+   "hook": "JULIANA: 'Why are you holding her hand?' -> CLARISSA: 'Because he is marrying me.'",
+   "cliffhanger": "Juliana begs her father: 'Tell them this is a mistake.' (he hasn't answered)",
+   "note": "Jilted at the altar for her own sister; the purest cold-open premise of the show."},
+
+  {"id": "G2", "by": "human", "segments": [{"episode": 1, "start": "01:47.50", "end": "02:18.00"}],
+   "hook": "CLARISSA: 'You are the daughter people tolerate because they have to.'",
+   "cliffhanger": "Juliana's tears harden into cold defiance; cut to black.",
+   "note": "Shorter, crueller alternative cut of ep 1; ends on a revenge promise."},
+
+  {"id": "G3", "by": "human", "segments": [
+      {"episode": 3, "start": "00:58.30", "end": "01:25.50"},
+      {"episode": 3, "start": "02:13.20", "end": "02:25.75"}],
+   "hook": "MATRIARCH: 'Guards! Remove her!' as she is dragged from the church.",
+   "cliffhanger": "Scarred stranger kneels with a ring: 'Lady Juliana... accept my hand.'",
+   "note": "Two segments: rescue punch + stranger's proposal. Skips the slow middle."},
+
+  {"id": "G4", "by": "human", "segments": [{"episode": 5, "start": "00:52.00", "end": "01:40.80"}],
+   "hook": "STEPMOTHER: 'Then you should have guarded it better.' and hurls her dead mother's book into the mud.",
+   "cliffhanger": "Stranger to Gerald: 'Choose your next words carefully.'",
+   "note": "Cruelty + quiet protector; ends on a threat before violence."},
+
+  {"id": "G5", "by": "human", "segments": [{"episode": 10, "start": "00:25.50", "end": "01:19.00"}],
+   "hook": "JULIANA: 'Then removing your shirt should not trouble you.'",
+   "cliffhanger": "ALEXANDER: 'Perhaps it is your hand.' (the almost-kiss)",
+   "note": "Romance/tension promo for variety; a weaker hook than the betrayal clips."},
+
+  {"id": "G6", "by": "human", "segments": [{"episode": 12, "start": "00:44.00", "end": "01:27.21"}],
+   "hook": "CLARISSA: 'I want to see you crawl, sister.'",
+   "cliffhanger": "Juliana: 'Tell me where the garden is.' (will she crawl through the thorns?)",
+   "note": "Sadistic ultimatum with clear stakes (husband hangs); fully self-contained."},
+
+  {"id": "G7", "by": "human", "segments": [{"episode": 15, "start": "00:44.80", "end": "01:26.00"}],
+   "hook": "THUG: 'Get out of the way!' and shoves her to the ground.",
+   "cliffhanger": "THUG: 'You want to fight us, veteran?' (cut before the fight)",
+   "note": "Classic cut-before-the-payoff. NB: the labeller had seen the rules baseline, which picked almost the same cut."},
+
+  {"id": "G8", "by": "human", "segments": [{"episode": 24, "start": "00:29.00", "end": "01:06.00"}],
+   "hook": "NOBLEWOMAN: 'Then let her suffer.' and whips Juliana with a riding crop.",
+   "cliffhanger": "Juliana forced to her knees to scrub the hearth.",
+   "note": "Physical strike in the first 4s. The cliffhanger is weaker (humiliation, not a question)."},
+
+  {"id": "G9", "by": "human", "segments": [{"episode": 30, "start": "01:25.80", "end": "02:23.50"}],
+   "hook": "ELDER NOBLEMAN: 'Then call it witchcraft.'",
+   "cliffhanger": "'Tomorrow, she stops being a prisoner. She becomes a witch.'",
+   "note": "Villain-plotting promo; needs no prior context to follow."},
+
+  {"id": "G10", "by": "human", "segments": [
+      {"episode": 41, "start": "00:58.00", "end": "01:33.50"},
+      {"episode": 42, "start": "00:11.20", "end": "00:14.60"}],
+   "hook": "JULIANA (chained): 'You needed an entire chapel to feel powerful over one chained woman?'",
+   "cliffhanger": "Cathedral doors explode; 'Who are you?' / 'You already know.'",
+   "note": "Cross-episode stitch. HIGH spoiler risk (Duke reveal); post later, not at launch."},
+
+  {"id": "G11", "by": "human", "segments": [{"episode": 42, "start": "00:30.50", "end": "01:17.80"}],
+   "hook": "RUPERT: 'You cannot be him. Alexander died!'",
+   "cliffhanger": "'This is my son... the rightful Duke!' / 'Now, Rupert... we settle what you stole.'",
+   "note": "Biggest payoff in the show and the title's promise. HIGH spoiler risk; a re-engagement promo, not a cold open."}
+]

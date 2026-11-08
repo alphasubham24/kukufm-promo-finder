@@ -1,0 +1,45 @@
+# ── Secrets & credentials ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── LLM cache (can be large, regenerated for free) ──────────────────────────
+.cache/
+
+# ── Run outputs (large, not source code) ────────────────────────────────────
+runs/
+raw_outputs/
+uploads/
+
+# ── Confidential show data ───────────────────────────────────────────────────
+data/
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── macOS junk ───────────────────────────────────────────────────────────────
+__MACOSX/
+.DS_Store
+._*
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
