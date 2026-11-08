@@ -1,0 +1,24 @@
+{
+  "gold_promos": 1,
+  "episodes_labelled": [
+    1
+  ],
+  "predictions_on_those_eps": 1,
+  "recall": 1.0,
+  "precision_top10_vs_gold": 1.0,
+  "hook_accurate_recall": 1.0,
+  "recall_in_top10": 1.0,
+  "recall_in_top20": 1.0,
+  "mean_abs_start_err_sec": 0.3,
+  "mean_abs_end_err_sec": 5.4,
+  "matches": [
+    {
+      "gold": "G1",
+      "pred": "P08",
+      "rank": 8,
+      "iou": 0.86,
+      "start_err": -0.3,
+      "end_err": 5.4
+    }
+  ]
+}

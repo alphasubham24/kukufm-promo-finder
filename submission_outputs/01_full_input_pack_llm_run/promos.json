@@ -1,0 +1,5992 @@
+{
+  "meta": {
+    "run_id": "20261108-190457-llm",
+    "show": "Broken Soldier Duke",
+    "mode": "llm",
+    "data_dir": "C:\\Users\\subha\\Downloads\\kukufm-ps-1\\data\\broken-soldier-duke",
+    "model": "openai.gpt-oss-120b-1:0",
+    "provider": "bedrock-runtime.ap-south-1.amazonaws.com",
+    "llm_usage": {
+      "calls": 15,
+      "cached": 0,
+      "prompt_tokens": 63344,
+      "completion_tokens": 35001
+    },
+    "elapsed_sec": 162.0,
+    "created": "2026-11-08T19:04:57"
+  },
+  "editor_plan": {
+    "error": "LLM call failed after retries: unparseable JSON: <reasoning>We need to decide posting plan for launch week. Need to select up to 10 promos, order them. Consider which best explain premise to cold audience, early episodes funnel viewers into episode "
+  },
+  "promos": [
+    {
+      "title": "E18\u2011FireScream\u2011CeilingCollapse",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 18,
+          "start": "00:06.50",
+          "end": "01:08.00",
+          "start_sec": 6.5,
+          "end_sec": 68.0,
+          "duration": 61.5,
+          "from_block": "E18-B005",
+          "to_block": "E18-B036"
+        }
+      ],
+      "total_duration": 61.5,
+      "hook": "Juliana screams, \u201cAlexander!\u201d as the bedroom erupts in flames.",
+      "cliffhanger": "Alexander shouts, \u201cJuliana, the ceiling is coming down!\u201d just as the fire threatens to crush them.",
+      "why": "Starts with a visceral scream and ends on a life\u2011or\u2011death moment, forcing viewers to wonder if they survive.",
+      "trope": "rescue",
+      "llm_scores": {
+        "hook": 5,
+        "cliffhanger": 5,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.6,
+        "cliffhanger": 0.0
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:06.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Screaming, Terrified",
+            "text": "Alexander!"
+          },
+          {
+            "t": "00:10.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Desperate, Shouting",
+            "text": "Alexander!"
+          },
+          {
+            "t": "00:16.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana sits huddled at the edge of the bed, pressing her bandaged hands against her mouth, coughing and sobbing in fear."
+          },
+          {
+            "t": "00:17.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Muffled, Weeping",
+            "text": "Alexander..."
+          },
+          {
+            "t": "00:19.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A violent crash as the bedroom door is kicked open."
+          },
+          {
+            "t": "00:20.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Authoritative, Urgency",
+            "text": "Juliana! Get up!"
+          },
+          {
+            "t": "00:24.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander reaches the bed, hoisting Juliana up by her arms into a standing embrace."
+          },
+          {
+            "t": "00:26.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Breathless, Distressed",
+            "text": "What happened?"
+          },
+          {
+            "t": "00:28.10",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grim, Urgent",
+            "text": "Fire."
+          },
+          {
+            "t": "00:32.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander clutches Juliana against his chest with one strong arm, shielding her face from the sparks."
+          },
+          {
+            "t": "00:33.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Firm, Protective",
+            "text": "Stay close to me."
+          },
+          {
+            "t": "00:38.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana recoils from the heat, clutching Alexander's coat tightly."
+          },
+          {
+            "t": "00:39.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Panic-Stricken, Choked",
+            "text": "We cannot get through!"
+          },
+          {
+            "t": "00:42.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Resolute, Calm Under Pressure",
+            "text": "Then we go another way."
+          },
+          {
+            "t": "00:45.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Loud wooden groaning and thunderous crash of burning rafters falling behind them."
+          },
+          {
+            "t": "00:56.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana spots the book and halts abruptly, pointing back toward the burning desk."
+          },
+          {
+            "t": "00:56.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Frantic, Desperate",
+            "text": "The ledger!"
+          },
+          {
+            "t": "00:57.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander firmly grips her arm, pulling her back toward safety."
+          },
+          {
+            "t": "00:58.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Stern, Shouting",
+            "text": "Leave it!"
+          },
+          {
+            "t": "00:59.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hysterical, Screaming",
+            "text": "No! No!"
+          },
+          {
+            "t": "01:05.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander points upward with urgency, pulling her under his arm."
+          },
+          {
+            "t": "01:05.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Loud, Alarmed",
+            "text": "Juliana, the ceiling is coming down!"
+          }
+        ]
+      ],
+      "score": 79.2,
+      "rank_score": 79.2,
+      "rank": 1,
+      "id": "P01",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep38\u2011Bell Alarm",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 38,
+          "start": "01:04.00",
+          "end": "01:27.91",
+          "start_sec": 64.0,
+          "end_sec": 87.91,
+          "duration": 23.91,
+          "from_block": "E38-B042",
+          "to_block": "E38-B056"
+        }
+      ],
+      "total_duration": 23.91,
+      "hook": "Juliana\u2019s eyes snap wide open in sudden realization as a deep resonant toll reverberates from above.",
+      "cliffhanger": "A sharp, high\u2011tension swell erupts as she whispers \u201cAlexander\u2026\u201d, leaving the fate of the wedding and her execution unknown.",
+      "why": "The sudden bell sound instantly raises stakes, and the cut on the musical sting leaves the viewer desperate to know what happens next.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 1.0
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:04.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana's eyes snap wide open in sudden realization as a deep resonant toll reverberates from above."
+          },
+          {
+            "t": "01:04.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Solemn, resonant church bells begin tolling rhythmically from the cathedral above, echoing deep into the stone dungeon."
+          },
+          {
+            "t": "01:09.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Startled Whisper",
+            "text": "Bells."
+          },
+          {
+            "t": "01:11.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana rushes toward the front of the cell, clutching the iron bars with both hands."
+          },
+          {
+            "t": "01:12.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Realizing",
+            "text": "The wedding."
+          },
+          {
+            "t": "01:14.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Grim",
+            "text": "It's beginning."
+          },
+          {
+            "t": "01:16.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Somber, Steely",
+            "text": "Then I suppose I'm next."
+          },
+          {
+            "t": "01:21.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana grips the bars tightly, her lips curving into a warm, defiant smile as she whispers her husband's name."
+          },
+          {
+            "t": "01:22.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hopeful, Tender",
+            "text": "Alexander..."
+          },
+          {
+            "t": "01:24.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A sharp, high-tension dramatic swell strikes and echoes out into silence alongside the fading toll of the distant church bells."
+          }
+        ]
+      ],
+      "score": 74.0,
+      "rank_score": 74.0,
+      "rank": 2,
+      "id": "P02",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep7: Husband's Silent Threat",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 7,
+          "start": "01:05.20",
+          "end": "01:31.50",
+          "start_sec": 65.2,
+          "end_sec": 91.5,
+          "duration": 26.3,
+          "from_block": "E07-B031",
+          "to_block": "E07-B045"
+        }
+      ],
+      "total_duration": 26.3,
+      "hook": "I have enough influence to make a beggar disappear.",
+      "cliffhanger": "Gerald turns and flees, leaving the scarred bearded husband looming in the mud.",
+      "why": "A bold threat followed by the villain\u2019s sudden fear creates instant tension that a new viewer can grasp without prior context.",
+      "trope": "other",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.81,
+        "cliffhanger": 0.45
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:05.60",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Furious, Threatening",
+            "text": "I have enough influence to make a beggar disappear."
+          },
+          {
+            "t": "01:08.60",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Spiteful, Boastful",
+            "text": "And your husband?"
+          },
+          {
+            "t": "01:09.50",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "V.O.) (Snarl",
+            "text": "Where is that beggar husband?"
+          },
+          {
+            "t": "01:10.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Scarred Bearded Man marches purposefully toward the cottage, carrying a heavy bundle of chopped firewood bound tightly with hemp cord."
+          },
+          {
+            "t": "01:16.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A dull, heavy thud of timber striking the mud."
+          },
+          {
+            "t": "01:21.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Gerald freezes, his arrogant bravado instantly vanishing as cold dread overtakes his face."
+          },
+          {
+            "t": "01:26.50",
+            "kind": "DIALOGUE",
+            "speaker": "ARISTOCRATIC WOMAN",
+            "emotion": "O.S.) (Urgent, Annoyed",
+            "text": "Gerald, don't let him frighten you."
+          },
+          {
+            "t": "01:28.60",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Trembling, Trying to Save Face",
+            "text": "What are you staring at?"
+          },
+          {
+            "t": "01:30.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Gerald rapidly turns on his heel toward the carriage, unwilling to face another second of the silent glare."
+          },
+          {
+            "t": "01:30.10",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Nervous, Hurried",
+            "text": "We are leaving."
+          }
+        ]
+      ],
+      "score": 73.9,
+      "rank_score": 73.9,
+      "rank": 3,
+      "id": "P03",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ledger Tossed",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 5,
+          "start": "00:54.00",
+          "end": "01:41.50",
+          "start_sec": 54.0,
+          "end_sec": 101.5,
+          "duration": 47.5,
+          "from_block": "E05-B031",
+          "to_block": "E05-B057"
+        }
+      ],
+      "total_duration": 47.5,
+      "hook": "Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain\u2011soaked courtyard.",
+      "cliffhanger": "Choose your next words carefully.",
+      "why": "A shocking act of cruelty followed by a chilling threat makes a self\u2011contained, high\u2011tension bite.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.6,
+        "cliffhanger": 0.15
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:54.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain-soaked courtyard."
+          },
+          {
+            "t": "00:55.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Screaming, Desperate",
+            "text": "Barbara, don't!"
+          },
+          {
+            "t": "00:57.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A heavy wet slap as the leather-bound book crashes into the puddle-slicked stone pavement."
+          },
+          {
+            "t": "00:59.00",
+            "kind": "DIALOGUE",
+            "speaker": "CLARISSA",
+            "emotion": "Gleeful, Mocking",
+            "text": "Even your mother's precious legacy has been cast into the dirt!"
+          },
+          {
+            "t": "01:02.40",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Smug, Cruel",
+            "text": "Perhaps that is where it belongs."
+          },
+          {
+            "t": "01:05.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana drops to her knees onto the wet courtyard pavement, oblivious to the dirt soaking through her white bridal gown."
+          },
+          {
+            "t": "01:10.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man bends his knees and kneels down beside Juliana, extending his scarred hand to retrieve the fallen ledger."
+          },
+          {
+            "t": "01:17.80",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Low, Gentle",
+            "text": "Here you go."
+          },
+          {
+            "t": "01:20.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Choked, Weeping",
+            "text": "They destroyed it."
+          },
+          {
+            "t": "01:22.50",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Calm, Grounded",
+            "text": "They dirtied it. That is not the same thing."
+          },
+          {
+            "t": "01:26.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Broken",
+            "text": "It was my mother's."
+          },
+          {
+            "t": "01:27.90",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Gentle, Protective",
+            "text": "Then keep it."
+          },
+          {
+            "t": "01:28.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man reaches out with both hands, clasping his strong hands tenderly over hers and the book."
+          },
+          {
+            "t": "01:29.40",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Firm, Comforting",
+            "text": "Let them keep everything else."
+          },
+          {
+            "t": "01:31.50",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Mocking, Arrogant",
+            "text": "Look at you."
+          },
+          {
+            "t": "01:33.00",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Scornful, Spiteful",
+            "text": "A noblewoman reduced to a beggar's wife!"
+          },
+          {
+            "t": "01:38.00",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Low, Lethally Cold",
+            "text": "Choose your next words carefully."
+          }
+        ]
+      ],
+      "score": 73.8,
+      "rank_score": 73.8,
+      "rank": 4,
+      "id": "P04",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Dead Man's Secret",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 35,
+          "start": "02:05.50",
+          "end": "02:37.50",
+          "start_sec": 125.5,
+          "end_sec": 157.5,
+          "duration": 32.0,
+          "from_block": "E35-B058",
+          "to_block": "E35-B071"
+        }
+      ],
+      "total_duration": 32.0,
+      "hook": "Because someone wanted you to believe I was dead.",
+      "cliffhanger": "A sudden, ominous orchestral crescendo swells dramatically into silence, hinting at a hidden enemy.",
+      "why": "A shocking confession about a fabricated death instantly hooks viewers, and the music cue leaves the conspiracy unresolved.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.47,
+        "cliffhanger": 0.95
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "02:06.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Ominous, Deliberate",
+            "text": "Because someone wanted you to believe I was dead."
+          },
+          {
+            "t": "02:09.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Breathless",
+            "text": "Who?"
+          },
+          {
+            "t": "02:10.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander turns away toward the frosted window, staring out into the dark raging blizzard outside."
+          },
+          {
+            "t": "02:11.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Brooding",
+            "text": "I spent three years trying to find out."
+          },
+          {
+            "t": "02:14.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander abruptly pushes away from the window, storming back toward the table with burning rage."
+          },
+          {
+            "t": "02:14.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Fierce, Resolute",
+            "text": "The ambush was not an accident."
+          },
+          {
+            "t": "02:17.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "He leans heavily over the wooden table, looming close as his fury boils over."
+          },
+          {
+            "t": "02:17.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Vehement, Enraged",
+            "text": "Someone ordered my men to die."
+          },
+          {
+            "t": "02:21.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Darkly Intimating",
+            "text": "Someone wanted me erased."
+          },
+          {
+            "t": "02:24.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Gasping, Terrified",
+            "text": "Who?"
+          },
+          {
+            "t": "02:25.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Deadly, Chilling",
+            "text": "The men behind it... are the same men ruling Ashwood now."
+          },
+          {
+            "t": "02:30.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A sudden, ominous orchestral crescendo swells dramatically into silence."
+          }
+        ]
+      ],
+      "score": 73.8,
+      "rank_score": 73.8,
+      "rank": 5,
+      "id": "P05",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Cell Door Slam & Vow",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 29,
+          "start": "01:25.70",
+          "end": "01:52.80",
+          "start_sec": 85.7,
+          "end_sec": 112.8,
+          "duration": 27.1,
+          "from_block": "E29-B053",
+          "to_block": "E29-B070"
+        }
+      ],
+      "total_duration": 27.1,
+      "hook": "Juliana (Crying Out, Broken): Please!",
+      "cliffhanger": "Juliana vows, \u201cThey will not take Alexander from me.\u201d",
+      "why": "The brutal slam of the cell door and a desperate plea instantly hook the viewer, then her fierce promise raises the stakes of her imprisonment.",
+      "trope": "rescue",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.76,
+        "cliffhanger": 0.65
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:25.70",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Crying Out, Broken",
+            "text": "Please!"
+          },
+          {
+            "t": "01:26.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "The heavy iron door slams shut with a deafening metallic thud, and the massive exterior bolt grates locked."
+          },
+          {
+            "t": "01:29.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana trembles uncontrollably, her fingers digging into the collar of her rustic dress as terror washes over her."
+          },
+          {
+            "t": "01:34.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Sobbing, Heartbroken",
+            "text": "Mother..."
+          },
+          {
+            "t": "01:37.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Desperate, Shouting",
+            "text": "I have done nothing!"
+          },
+          {
+            "t": "01:39.70",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Screaming, Hysterical",
+            "text": "I saved her! I healed her!"
+          },
+          {
+            "t": "01:42.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Muffled, dull metallic clanging reverberates as Juliana hammers against the iron door."
+          },
+          {
+            "t": "01:42.60",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Shouting in Anguish",
+            "text": "I saved the Duchess!"
+          },
+          {
+            "t": "01:46.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "V.O.) (Sorrowful, Wounded",
+            "text": "They took my mother's ledger..."
+          },
+          {
+            "t": "01:49.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "V.O.) (Quiet Resolve, Unbreakable",
+            "text": "They took her locket. But they will not take Alexander from me."
+          }
+        ]
+      ],
+      "score": 77.7,
+      "rank_score": 72.3,
+      "rank": 6,
+      "id": "P06",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "E2_AbandonmentAccusation",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 2,
+          "start": "01:16.50",
+          "end": "01:50.00",
+          "start_sec": 76.5,
+          "end_sec": 110.0,
+          "duration": 33.5,
+          "from_block": "E02-B056",
+          "to_block": "E02-B073"
+        }
+      ],
+      "total_duration": 33.5,
+      "hook": "You abandoned a woman who trusted you...",
+      "cliffhanger": "The orchestral score swells as Juliana stands defiantly, leaving her fate unknown.",
+      "why": "A raw, accusatory line pulls viewers in, and the final musical swell hints at a powerful showdown without revealing the outcome.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.95
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:16.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Clear, Accusing",
+            "text": "You abandoned a woman who trusted you..."
+          },
+          {
+            "t": "01:19.20",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Off-screen) (Sharp, Piercing",
+            "text": "...because another woman promised you greater beauty and wealth."
+          },
+          {
+            "t": "01:23.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Steely, Resolute",
+            "text": "Do not mistake my heartbreak for your victory, Gerald."
+          },
+          {
+            "t": "01:26.80",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Powerful, Unyielding",
+            "text": "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable."
+          },
+          {
+            "t": "01:33.40",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Decisive, Scathing",
+            "text": "You have shown them exactly what your word is worth."
+          },
+          {
+            "t": "01:38.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana lifts her chin high, commanding the space with unassailable dignity."
+          },
+          {
+            "t": "01:38.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Resolute, Proud",
+            "text": "I may leave this chapel without a husband..."
+          },
+          {
+            "t": "01:43.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Defiant, Triumphant in Spirit",
+            "text": "...but I will not leave it believing I was the one who should be ashamed."
+          },
+          {
+            "t": "01:47.40",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat."
+          }
+        ]
+      ],
+      "score": 72.8,
+      "rank_score": 67.7,
+      "rank": 7,
+      "id": "P07",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "E1_BetrayalHook",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:11.00",
+          "end": "00:50.40",
+          "start_sec": 11.0,
+          "end_sec": 50.4,
+          "duration": 39.4,
+          "from_block": "E01-B007",
+          "to_block": "E01-B031"
+        }
+      ],
+      "total_duration": 39.4,
+      "hook": "You should turn around, Juliana.",
+      "cliffhanger": "You knew this before I walked through those doors!",
+      "why": "Shows the brutal family betrayal instantly and ends on Juliana\u2019s furious accusation, leaving viewers desperate to see her reaction.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.25,
+        "cliffhanger": 0.27
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:11.30",
+            "kind": "DIALOGUE",
+            "speaker": "MATRIARCH",
+            "emotion": "Cold, Commanding",
+            "text": "You should turn around, Juliana."
+          },
+          {
+            "t": "00:13.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Confused, Breathless",
+            "text": "Why?"
+          },
+          {
+            "t": "00:15.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Desperate, Unbelieving",
+            "text": "Gerald is waiting for me."
+          },
+          {
+            "t": "00:18.00",
+            "kind": "DIALOGUE",
+            "speaker": "MATRIARCH",
+            "emotion": "Blunt, Unforgiving",
+            "text": "Not anymore."
+          },
+          {
+            "t": "00:21.80",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Trembling, Pleading",
+            "text": "What do you mean?"
+          },
+          {
+            "t": "00:23.80",
+            "kind": "DIALOGUE",
+            "speaker": "MATRIARCH",
+            "emotion": "Dismissive",
+            "text": "Look for yourself."
+          },
+          {
+            "t": "00:25.60",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana walks forward past the Matriarch, her breath hitching as she approaches the altar steps, looking up in shock."
+          },
+          {
+            "t": "00:33.80",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Shaken, Whispering",
+            "text": "Gerald?"
+          },
+          {
+            "t": "00:35.40",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Heartbroken",
+            "text": "Why are you holding her hand?"
+          },
+          {
+            "t": "00:39.10",
+            "kind": "DIALOGUE",
+            "speaker": "LADY IN GOLD GOWN",
+            "emotion": "Gloating, Smug",
+            "text": "Because he is marrying me."
+          },
+          {
+            "t": "00:41.70",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Gasping, Devastated",
+            "text": "No..."
+          },
+          {
+            "t": "00:46.80",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Outraged, Accusing",
+            "text": "You knew this before I walked through those doors!"
+          }
+        ]
+      ],
+      "score": 71.0,
+      "rank_score": 66.0,
+      "rank": 8,
+      "id": "P08",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "E3_StrangerIntervention",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 3,
+          "start": "01:09.90",
+          "end": "01:34.00",
+          "start_sec": 69.9,
+          "end_sec": 94.0,
+          "duration": 24.1,
+          "from_block": "E03-B058",
+          "to_block": "E03-B078"
+        }
+      ],
+      "total_duration": 24.1,
+      "hook": "Take your hands off her.",
+      "cliffhanger": "Juliana shakes her head \u2018no\u2019, eyes locked on the mysterious stranger as tension hangs in the air.",
+      "why": "A sudden command erupts into a violent showdown, ending on a tense, unanswered stare that begs viewers to watch what happens next.",
+      "trope": "rescue",
+      "llm_scores": {
+        "hook": 5,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.3
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:09.90",
+            "kind": "DIALOGUE",
+            "speaker": "THE BEARDED STRANGER",
+            "emotion": "Low, Thunderous, Imposing",
+            "text": "Take your hands off her."
+          },
+          {
+            "t": "01:13.00",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLE MATRIARCH",
+            "emotion": "Indignant, Screeching",
+            "text": "And who are you to give orders in my family's chapel?!"
+          },
+          {
+            "t": "01:17.20",
+            "kind": "DIALOGUE",
+            "speaker": "ROYAL GUARD",
+            "emotion": "Aggressive, Threatening",
+            "text": "Stand aside, stranger!"
+          },
+          {
+            "t": "01:19.30",
+            "kind": "DIALOGUE",
+            "speaker": "THE BEARDED STRANGER",
+            "emotion": "Quiet, Deadly",
+            "text": "I said..."
+          },
+          {
+            "t": "01:21.80",
+            "kind": "DIALOGUE",
+            "speaker": "THE BEARDED STRANGER",
+            "emotion": "Dangerous, Uncompromising",
+            "text": "...let her go."
+          },
+          {
+            "t": "01:24.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor."
+          },
+          {
+            "t": "01:24.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A heavy, bone-rattling punch followed by the clatter and thud of the guard collapsing onto the stone floor."
+          },
+          {
+            "t": "01:25.60",
+            "kind": "DIALOGUE",
+            "speaker": "THE FORMER GROOM",
+            "emotion": "Frantic, Shouting",
+            "text": "What are you waiting for?! He's only one man!"
+          },
+          {
+            "t": "01:30.40",
+            "kind": "DIALOGUE",
+            "speaker": "THE BEARDED STRANGER",
+            "emotion": "Gentle, Protective",
+            "text": "Are you hurt?"
+          },
+          {
+            "t": "01:31.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana softly shakes her head 'no', her wide blue eyes locked onto him."
+          }
+        ]
+      ],
+      "score": 74.6,
+      "rank_score": 64.5,
+      "rank": 9,
+      "id": "P09",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep26_RingReveal",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 26,
+          "start": "01:26.50",
+          "end": "01:55.80",
+          "start_sec": 86.5,
+          "end_sec": 115.8,
+          "duration": 29.3,
+          "from_block": "E26-B034",
+          "to_block": "E26-B048"
+        }
+      ],
+      "total_duration": 29.3,
+      "hook": "Juliana\u2019s hand, glinting with a distinctive family ring, comes into view \u2013 the camera lingers on the unexpected jewelry.",
+      "cliffhanger": "The Dowager Duchess lunges, demanding \u201cWhere\u2026 where\u2026 where did you get this ring?\u201d \u2013 the answer is still unknown.",
+      "why": "The mysterious ring instantly raises questions of identity and betrayal, and the Duchess\u2019s frantic demand leaves the mystery hanging.",
+      "trope": "secret identity",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.35
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:27.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana rests her right hand against the edge of the bedcover, unwittingly placing the unique ring directly within the Duchess's line of sight."
+          },
+          {
+            "t": "01:30.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A sharp, stunned gasp."
+          },
+          {
+            "t": "01:30.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Duchess's mouth hangs open in pure disbelief as she stares fixedly at Juliana's hand."
+          },
+          {
+            "t": "01:36.00",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Breathless, Shaken",
+            "text": "Your hand... Let me see your hand."
+          },
+          {
+            "t": "01:40.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Confused, Alarmed",
+            "text": "Your Grace? What is wrong? You look as though you've seen a ghost."
+          },
+          {
+            "t": "01:46.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Duchess reaches outward with trembling fingers, grasping frantically for Juliana."
+          },
+          {
+            "t": "01:48.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "A sudden sharp rustle of fabric as her fingers snap tight."
+          },
+          {
+            "t": "01:49.20",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Stern, Desperate",
+            "text": "Do not move!"
+          },
+          {
+            "t": "01:51.00",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Intense, Demanding",
+            "text": "Where... where... Where did you get this ring? Speak to me!"
+          }
+        ]
+      ],
+      "score": 62.2,
+      "rank_score": 62.2,
+      "rank": 10,
+      "id": "P10",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "E16\u2011PowerCatch\u2011GeraldReveal",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:14.30",
+          "end": "00:59.00",
+          "start_sec": 14.3,
+          "end_sec": 59.0,
+          "duration": 44.7,
+          "from_block": "E16-B013",
+          "to_block": "E16-B049"
+        }
+      ],
+      "total_duration": 44.7,
+      "hook": "Alexander catches the iron pipe mid\u2011air with his bare hand.",
+      "cliffhanger": "The thug shouts, \u201cHarrington! Gerald Harrington paid us!\u201d leaving Juliana\u2019s reaction unknown.",
+      "why": "Shows Alexander\u2019s lethal skill instantly, then drops a bombshell about Gerald\u2019s betrayal that hooks viewers.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 5,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.4,
+        "cliffhanger": 0.3
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:14.40",
+            "kind": "DIALOGUE",
+            "speaker": "THUG WITH CAP",
+            "emotion": "Roaring",
+            "text": "Aaargh!"
+          },
+          {
+            "t": "00:14.40",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The thug swings the club down with full force, but Alexander catches the weapon mid-air in his bare hand with chilling ease."
+          },
+          {
+            "t": "00:15.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Heavy blunt impact of a solid hand gripping wood."
+          },
+          {
+            "t": "00:19.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander strikes the thug across the chest and slams him violently into the muddy ground beside the stone wall."
+          },
+          {
+            "t": "00:19.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Heavy thud of a body crashing into soil and wood."
+          },
+          {
+            "t": "00:23.00",
+            "kind": "DIALOGUE",
+            "speaker": "BALD THUG",
+            "emotion": "Yelling",
+            "text": "Aaargh!"
+          },
+          {
+            "t": "00:24.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Loud wooden scrape and crunch as the Bald Thug slides across the planks into the fence."
+          },
+          {
+            "t": "00:25.80",
+            "kind": "DIALOGUE",
+            "speaker": "THIRD THUG",
+            "emotion": "Desperate, Shouting",
+            "text": "Stay back!"
+          },
+          {
+            "t": "00:26.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander deflects the strike with his forearm, drives a swift counter-blow into the thug's torso, and spins him violently to the ground."
+          },
+          {
+            "t": "00:27.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Solid bone-and-fist impact followed by a groaning thud."
+          },
+          {
+            "t": "00:32.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Breathless, Overwhelmed",
+            "text": "Alexander..."
+          },
+          {
+            "t": "00:36.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Gentle, Concerned",
+            "text": "Are you hurt?"
+          },
+          {
+            "t": "00:38.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Fragile, Pain-filled",
+            "text": "Only my hands."
+          },
+          {
+            "t": "00:41.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity."
+          },
+          {
+            "t": "00:42.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Demanding, Threatening",
+            "text": "Who sent you?"
+          },
+          {
+            "t": "00:44.20",
+            "kind": "DIALOGUE",
+            "speaker": "THUG WITH CAP",
+            "emotion": "Choking, Defiant",
+            "text": "No one!"
+          },
+          {
+            "t": "00:46.30",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Ominous",
+            "text": "Wrong answer."
+          },
+          {
+            "t": "00:48.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander tightens his grip on the thug's throat, lifting him higher against the stone wall."
+          },
+          {
+            "t": "00:48.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Roaring",
+            "text": "Who?!"
+          },
+          {
+            "t": "00:49.80",
+            "kind": "DIALOGUE",
+            "speaker": "THUG WITH CAP",
+            "emotion": "Screaming, Panicked",
+            "text": "Harrington! Gerald Harrington paid us!"
+          },
+          {
+            "t": "00:53.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Shaken, Heartbroken",
+            "text": "Gerald..."
+          },
+          {
+            "t": "00:55.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Thug with Cap scrambles to his feet and sprints into the dark woods alongside his two limping accomplices."
+          },
+          {
+            "t": "00:56.00",
+            "kind": "DIALOGUE",
+            "speaker": "THUG WITH CAP",
+            "emotion": "Shouting, Retreating",
+            "text": "We were only paid to destroy the garden, that's all!"
+          }
+        ]
+      ],
+      "score": 70.8,
+      "rank_score": 61.2,
+      "rank": 11,
+      "id": "P11",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "32-iron-loom",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 32,
+          "start": "01:32.80",
+          "end": "02:30.80",
+          "start_sec": 92.8,
+          "end_sec": 150.8,
+          "duration": 58.0,
+          "from_block": "E32-B070",
+          "to_block": "E32-B112"
+        }
+      ],
+      "total_duration": 58.0,
+      "hook": "CATHERINE (Indignant, Sharp): \"You know nothing about my world.\"",
+      "cliffhanger": "CATHERINE hoists the searing branding rod over Juliana, the iron poised to strike.",
+      "why": "The taunt sets a fierce conflict and the looming brand leaves the outcome hanging, pulling viewers in.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.65
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:33.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Knowing, Sober",
+            "text": "I know exactly what your world values."
+          },
+          {
+            "t": "01:37.60",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Listing, Deliberate",
+            "text": "Beauty. Money."
+          },
+          {
+            "t": "01:41.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Firm",
+            "text": "Family. A perfect name."
+          },
+          {
+            "t": "01:43.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Continuing",
+            "text": "And a woman who never embarrasses the people standing behind her."
+          },
+          {
+            "t": "01:47.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Shouting, Outraged",
+            "text": "And what is wrong with that?!"
+          },
+          {
+            "t": "01:49.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Gentle, Penetrating",
+            "text": "Nothing. Until you have nothing left beneath it."
+          },
+          {
+            "t": "01:52.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Unrelenting",
+            "text": "You have spent your whole life collecting things that make people bow..."
+          },
+          {
+            "t": "01:56.90",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Piercing",
+            "text": "...but you have never learned how to make anyone love you."
+          },
+          {
+            "t": "01:59.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Hysterical, Screaming",
+            "text": "Silence! Silence!"
+          },
+          {
+            "t": "02:01.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Shrieking",
+            "text": "Why?!"
+          },
+          {
+            "t": "02:03.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Forceful",
+            "text": "Because I am right!"
+          },
+          {
+            "t": "02:05.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Scathing, Direct",
+            "text": "You want everyone to believe you are powerful."
+          },
+          {
+            "t": "02:09.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Continuing",
+            "text": "You want everyone to fear you."
+          },
+          {
+            "t": "02:12.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Mocking, Direct",
+            "text": "But look at you."
+          },
+          {
+            "t": "02:15.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Stripping Her Bare",
+            "text": "You have to threaten a chained woman to feel powerful!"
+          },
+          {
+            "t": "02:18.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Choking with Rage",
+            "text": "You insolent\u2014!"
+          },
+          {
+            "t": "02:20.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Steely, Triumphant",
+            "text": "You may have the title you have always wanted..."
+          },
+          {
+            "t": "02:22.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Final, Condemning",
+            "text": "...but you will never have the courage to earn what you demand from everyone else."
+          },
+          {
+            "t": "02:26.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Enraged, Shouting",
+            "text": "You think you can lecture me?!"
+          },
+          {
+            "t": "02:28.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine hoists the searing branding rod over Juliana with frantic fury."
+          },
+          {
+            "t": "02:28.10",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Screaming, Maniacal",
+            "text": "Then let's see how brave you are when it touches your skin!"
+          }
+        ]
+      ],
+      "score": 65.2,
+      "rank_score": 60.6,
+      "rank": 12,
+      "id": "P12",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "44_RejectionWalk",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 44,
+          "start": "00:03.20",
+          "end": "01:03.80",
+          "start_sec": 3.2,
+          "end_sec": 63.8,
+          "duration": 60.6,
+          "from_block": "E44-B003",
+          "to_block": "E44-B046"
+        }
+      ],
+      "total_duration": 60.6,
+      "hook": "Lord Henry Sterling, you are under arrest by order of the Crown.",
+      "cliffhanger": "Alexander (Skeptical, Cutting): \"Did you?\"",
+      "why": "The bold arrest sets a tense tone, then Alexander\u2019s cold question to Catherine leaves the fate of their love hanging.",
+      "trope": "romance/tension",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.0,
+        "cliffhanger": 0.65
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:03.30",
+            "kind": "DIALOGUE",
+            "speaker": "POLICE CONSTABLE",
+            "emotion": "Authoritative, Stern",
+            "text": "Lord Henry Sterling, you are under arrest by order of the Crown."
+          },
+          {
+            "t": "00:09.10",
+            "kind": "DIALOGUE",
+            "speaker": "LORD STERLING",
+            "emotion": "Snarls, Outraged",
+            "text": "You have no authority!"
+          },
+          {
+            "t": "00:11.40",
+            "kind": "DIALOGUE",
+            "speaker": "POLICE CONSTABLE",
+            "emotion": "Cold, Definite",
+            "text": "I have more than enough."
+          },
+          {
+            "t": "00:14.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "A royal redcoat guard firmly forces Rupert down into the stone dust."
+          },
+          {
+            "t": "00:14.00",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Frantic, Shouting",
+            "text": "Get your hands off me! Catherine!"
+          },
+          {
+            "t": "00:17.40",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Desperate, Screaming",
+            "text": "Do something!"
+          },
+          {
+            "t": "00:21.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine's satin-gloved hand clenches tightly into a trembling fist against the folds of her ornate gown."
+          },
+          {
+            "t": "00:25.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Shaken, Tearful",
+            "text": "Alexander... I thought you had died."
+          },
+          {
+            "t": "00:28.40",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Choked, Weeping",
+            "text": "Do you know what this did to me?"
+          },
+          {
+            "t": "00:31.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "O.S.) (Pleading",
+            "text": "I mourned you."
+          },
+          {
+            "t": "00:32.40",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Vulnerable, Trembling",
+            "text": "I waited for you."
+          },
+          {
+            "t": "00:34.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Heartbroken",
+            "text": "For three years, I believed the man I loved was buried somewhere across the sea."
+          },
+          {
+            "t": "00:38.90",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Whispering, Longing",
+            "text": "I never stopped loving you."
+          },
+          {
+            "t": "00:41.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander abruptly pulls his face back, refusing her touch and leaving her hand suspended in mid-air."
+          },
+          {
+            "t": "00:44.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Breathless, Hurt",
+            "text": "You don't remember?"
+          },
+          {
+            "t": "00:46.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Desperate, Demanding",
+            "text": "I was supposed to be your Duchess!"
+          },
+          {
+            "t": "00:49.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Implacable",
+            "text": "You were never my Duchess."
+          },
+          {
+            "t": "00:51.10",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Sobbing, Pleading",
+            "text": "But I loved you!"
+          },
+          {
+            "t": "00:53.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Scornful, Biting",
+            "text": "You loved the Duke you thought you would marry."
+          },
+          {
+            "t": "00:56.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Defiant, Pained",
+            "text": "No!"
+          },
+          {
+            "t": "00:59.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Passionate, Crying",
+            "text": "I loved you before all this!"
+          },
+          {
+            "t": "01:02.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Skeptical, Cutting",
+            "text": "Did you?"
+          }
+        ]
+      ],
+      "score": 60.6,
+      "rank_score": 60.6,
+      "rank": 13,
+      "id": "P13",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Defiant Rejection",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 4,
+          "start": "00:55.80",
+          "end": "01:56.80",
+          "start_sec": 55.8,
+          "end_sec": 116.8,
+          "duration": 61.0,
+          "from_block": "E04-B041",
+          "to_block": "E04-B086"
+        }
+      ],
+      "total_duration": 61.0,
+      "hook": "I will not become anyone's charity.",
+      "cliffhanger": "You have thrown yourself away!",
+      "why": "Shows Juliana\u2019s fierce independence and ends on Gerald\u2019s enraged outburst, leaving the conflict unresolved.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.6
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:56.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Fierce",
+            "text": "I will not become anyone's charity."
+          },
+          {
+            "t": "00:59.50",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Earnest",
+            "text": "It is not pity, Lady Juliana."
+          },
+          {
+            "t": "01:03.50",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Deep, Absolute",
+            "text": "It is a vow."
+          },
+          {
+            "t": "01:06.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "V.O.",
+            "text": "I don't know this man."
+          },
+          {
+            "t": "01:08.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "V.O.",
+            "text": "I don't know what waits beyond these doors."
+          },
+          {
+            "t": "01:09.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "V.O.",
+            "text": "But he looked at me when everyone else turned away."
+          },
+          {
+            "t": "01:12.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Resolved",
+            "text": "Then I accept."
+          },
+          {
+            "t": "01:16.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man stands tall, extending his scarred hand toward Juliana."
+          },
+          {
+            "t": "01:19.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "He folds his fingers over hers, holding her hand with protective firmness."
+          },
+          {
+            "t": "01:22.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE PRIEST",
+            "emotion": "Hesitant, Anxious",
+            "text": "My- My Lady..."
+          },
+          {
+            "t": "01:24.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE PRIEST",
+            "emotion": "Tentative",
+            "text": "Are you certain?"
+          },
+          {
+            "t": "01:29.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Unwavering",
+            "text": "I am."
+          },
+          {
+            "t": "01:32.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE PRIEST",
+            "emotion": "Resigned, Solemn",
+            "text": "Then... let us proceed."
+          },
+          {
+            "t": "01:35.80",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Low, Reassuring",
+            "text": "You need not say anything you do not mean."
+          },
+          {
+            "t": "01:38.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Warm, Sincere",
+            "text": "I truly mean it."
+          },
+          {
+            "t": "01:40.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man carefully slides the band onto Juliana's finger."
+          },
+          {
+            "t": "01:42.50",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Solemn",
+            "text": "You have my protection."
+          },
+          {
+            "t": "01:45.20",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Steadfast",
+            "text": "You have my respect."
+          },
+          {
+            "t": "01:47.80",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Grave",
+            "text": "And you have my word."
+          },
+          {
+            "t": "01:50.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE PRIEST",
+            "emotion": "Ceremonial",
+            "text": "By the authority entrusted to me, I now pronounce you..."
+          },
+          {
+            "t": "01:53.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE PRIEST",
+            "emotion": "Off-Screen, Booming",
+            "text": "...husband and wife!"
+          },
+          {
+            "t": "01:54.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Dramatic musical chord swelling."
+          },
+          {
+            "t": "01:55.00",
+            "kind": "DIALOGUE",
+            "speaker": "GERALD",
+            "emotion": "Furious, Shouting",
+            "text": "You have thrown yourself away!"
+          }
+        ]
+      ],
+      "score": 68.6,
+      "rank_score": 59.3,
+      "rank": 14,
+      "id": "P14",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "31-iron-threat",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 31,
+          "start": "02:02.00",
+          "end": "02:35.20",
+          "start_sec": 122.0,
+          "end_sec": 155.2,
+          "duration": 33.2,
+          "from_block": "E31-B066",
+          "to_block": "E31-B085"
+        }
+      ],
+      "total_duration": 33.2,
+      "hook": "CATHERINE (Enraged Scream): \"Enough!\"",
+      "cliffhanger": "CATHERINE lifts the searing branding rod, the glowing tip stopping just inches from Juliana's eye.",
+      "why": "Shows the brutal power play and ends on a deadly brink that makes viewers wonder if Juliana will survive.",
+      "trope": "other",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.35
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "02:02.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely."
+          },
+          {
+            "t": "02:04.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Accusatory, Commanding",
+            "text": "If you were truly powerful, Catherine, you wouldn't need me to bow."
+          },
+          {
+            "t": "02:11.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Enraged Scream",
+            "text": "Enough!"
+          },
+          {
+            "t": "02:13.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Hiss of scorched parchment and curling white smoke rising as paper blackens under extreme heat."
+          },
+          {
+            "t": "02:14.50",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Hateful, Malicious",
+            "text": "This pathetic book is the only thing you still have from your mother."
+          },
+          {
+            "t": "02:18.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Tears spill rapidly down Juliana's cheeks as she reaches forward in vain, restrained by her heavy iron chains."
+          },
+          {
+            "t": "02:18.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Desperate, Weeping",
+            "text": "[gasping] Give it back!"
+          },
+          {
+            "t": "02:20.70",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Gloating, Sadistic",
+            "text": "There. Finally. Something still hurts you."
+          },
+          {
+            "t": "02:24.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Screaming, Agonized",
+            "text": "No!"
+          },
+          {
+            "t": "02:25.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Vicious, Final",
+            "text": "One flame, and your mother's life's work becomes ash."
+          },
+          {
+            "t": "02:31.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes."
+          }
+        ]
+      ],
+      "score": 62.2,
+      "rank_score": 57.8,
+      "rank": 15,
+      "id": "P15",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Thrust & Witchcraft Plot",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 30,
+          "start": "00:33.40",
+          "end": "01:22.80",
+          "start_sec": 33.4,
+          "end_sec": 82.8,
+          "duration": 49.4,
+          "from_block": "E30-B017",
+          "to_block": "E30-B038"
+        }
+      ],
+      "total_duration": 49.4,
+      "hook": "Elder Nobleman (Fierce, Venomous): Then make certain she isn\u2019t! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!",
+      "cliffhanger": "Elder Nobleman (Cold, Calculating): Give those facts to a magistrate in the right order, and she becomes a poisoner.",
+      "why": "A violent thrust grabs attention, then the cold scheming to frame Juliana as a witch leaves the audience hanging on the impending trial.",
+      "trope": "secret identity",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.51,
+        "cliffhanger": 0.15
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:33.40",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Elder Nobleman thrusts the gold knob of his walking stick directly against Rupert's chest, pinning him against the wall."
+          },
+          {
+            "t": "00:33.60",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Fierce, Venomous",
+            "text": "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!"
+          },
+          {
+            "t": "00:41.80",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Faltering, Submissive",
+            "text": "What are you suggesting?"
+          },
+          {
+            "t": "00:44.80",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Calculated, Ominous",
+            "text": "We stop hiding the prisoner."
+          },
+          {
+            "t": "00:48.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "The heavy creak of massive mahogany doors gliding open on brass hinges."
+          },
+          {
+            "t": "00:51.20",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Deadpan, Sinister",
+            "text": "We give them a reason to condemn her."
+          },
+          {
+            "t": "00:57.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Inquiring, Sharp",
+            "text": "You have a solution?"
+          },
+          {
+            "t": "00:59.40",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Ruthless",
+            "text": "We use the law to destroy her."
+          },
+          {
+            "t": "01:03.10",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Confused",
+            "text": "The law?"
+          },
+          {
+            "t": "01:05.30",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Pragmatic, Scheming",
+            "text": "A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber."
+          },
+          {
+            "t": "01:10.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Elder Nobleman leans both hands against the desk, leaning forward intently."
+          },
+          {
+            "t": "01:15.00",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Cold, Calculating",
+            "text": "Give those facts to a magistrate in the right order, and she becomes a poisoner."
+          }
+        ]
+      ],
+      "score": 60.7,
+      "rank_score": 56.5,
+      "rank": 16,
+      "id": "P16",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "EP24_Riding_Crop_Strike",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 24,
+          "start": "00:43.00",
+          "end": "01:32.00",
+          "start_sec": 43.0,
+          "end_sec": 92.0,
+          "duration": 49.0,
+          "from_block": "E24-B032",
+          "to_block": "E24-B066"
+        }
+      ],
+      "total_duration": 49.0,
+      "hook": "ACTION: The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+      "cliffhanger": "LADY JULIANA (V.O., Steely, Unstoppable): \u201cI will return. You cannot stop the healer.\u201d \u2013 her defiant promise leaves the outcome of her secret plan unknown.",
+      "why": "A visceral whipping grabs attention, then Juliana\u2019s hidden resolve hints a daring comeback, leaving viewers eager to see if she can outwit her oppressor.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.29,
+        "cliffhanger": 0.35
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:43.20",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Subdued, Controlled",
+            "text": "Yes, my lady."
+          },
+          {
+            "t": "00:45.50",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Smug, Condescending",
+            "text": "Good. Perhaps we can teach you your place."
+          },
+          {
+            "t": "00:48.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway."
+          },
+          {
+            "t": "00:51.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth."
+          },
+          {
+            "t": "00:53.60",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Harsh, Dismissive",
+            "text": "Clean it."
+          },
+          {
+            "t": "00:56.20",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Quiet, Questioning",
+            "text": "All of it, my lady?"
+          },
+          {
+            "t": "00:57.80",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Intimate, Venomous",
+            "text": "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+          },
+          {
+            "t": "01:03.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace."
+          },
+          {
+            "t": "01:06.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Prudence steps toward the noblewoman in distress, her hands clasped tightly."
+          },
+          {
+            "t": "01:06.20",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Desperate, Pleading",
+            "text": "My lady\u2014"
+          },
+          {
+            "t": "01:07.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face."
+          },
+          {
+            "t": "01:08.00",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Furious, Threatening",
+            "text": "Do you want the same punishment?"
+          },
+          {
+            "t": "01:10.60",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Terrified, Murmuring",
+            "text": "No, my lady."
+          },
+          {
+            "t": "01:12.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones."
+          },
+          {
+            "t": "01:13.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Rhythmic, harsh rasping sound of bristles scraping against stone."
+          },
+          {
+            "t": "01:15.00",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Smug, Gleeful",
+            "text": "That is where clever little servants belong."
+          },
+          {
+            "t": "01:18.60",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "V.O.) (Cold, Resolute",
+            "text": "Let her think I am only a maid."
+          },
+          {
+            "t": "01:21.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana pauses scrubbing. Her soot-caked fingers reach into the deep pocket of her apron, carefully feeling the worn leather cover of her mother's remedy journal and the glass dropper bottle securely concealed within."
+          },
+          {
+            "t": "01:21.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "V.O.) (Determined, Defiant",
+            "text": "Let her believe I am ignorant."
+          },
+          {
+            "t": "01:25.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana raises her head. Smudges of dark soot stain her fair cheek, but her piercing blue eyes burn with unwavering defiance and unyielding resolve as she stares toward the hallway."
+          },
+          {
+            "t": "01:25.60",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "V.O.) (Steely, Unstoppable",
+            "text": "I will return. You cannot stop the healer."
+          }
+        ]
+      ],
+      "score": 64.5,
+      "rank_score": 55.8,
+      "rank": 17,
+      "id": "P17",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep21_TobyCrisis",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 21,
+          "start": "00:03.60",
+          "end": "01:04.50",
+          "start_sec": 3.6,
+          "end_sec": 64.5,
+          "duration": 60.9,
+          "from_block": "E21-B004",
+          "to_block": "E21-B042"
+        }
+      ],
+      "total_duration": 60.9,
+      "hook": "Lady Juliana! Please! You have to help me, Toby is dying!",
+      "cliffhanger": "Juliana crushes the dried herbs and pours steaming water over them, but the scene cuts before we see if the remedy saves the boy.",
+      "why": "An urgent plea grabs attention, then the promo stops at the critical moment of the herbal cure, leaving the child's fate in suspense.",
+      "trope": "rescue",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.52,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:04.20",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Desperate, Panicked",
+            "text": "Lady Juliana! Please! You have to help me, Toby is dying!"
+          },
+          {
+            "t": "00:08.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana hurries over, placing her bandaged hands reassuringly on Prudence's trembling shoulders."
+          },
+          {
+            "t": "00:08.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Gentle, Urgent",
+            "text": "Oh dear. Breathe. Tell me what has happened."
+          },
+          {
+            "t": "00:11.20",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Sobbing, Breathless",
+            "text": "My little brother Toby... his chest is burning! He cannot breathe!"
+          },
+          {
+            "t": "00:15.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Inquiring, Strained",
+            "text": "Tell me what the apothecary said. Did he not give you medicine?"
+          },
+          {
+            "t": "00:18.20",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Anguished, Resentful",
+            "text": "He shut the door in my face because we have no silver!"
+          },
+          {
+            "t": "00:21.80",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Bitter, Tearful",
+            "text": "The manor doctor laughed! He said village boys are not worth his time!"
+          },
+          {
+            "t": "00:25.10",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Sorrowful, Dejected",
+            "text": "We have no clinic now."
+          },
+          {
+            "t": "00:27.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Despondent",
+            "text": "Our cottage is ashes. I have nothing left but this coltsfoot."
+          },
+          {
+            "t": "00:31.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Prudence drops desperately to her knees onto the hay-strewn barn floor, clasping her hands in tearful supplication."
+          },
+          {
+            "t": "00:31.00",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Pleading, Desperate",
+            "text": "He is only seven! If you do not come, he will die! You are his only hope, Lady Juliana!"
+          },
+          {
+            "t": "00:35.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana immediately reaches down and pulls Prudence firmly back to her feet, then turns to snatch her heavy leather-bound herbal ledger from the wooden workbench."
+          },
+          {
+            "t": "00:35.90",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Resolute, Authoritative",
+            "text": "Stand up. Sinking to your knees will not save him. Let me grab my ledger. We go now."
+          },
+          {
+            "t": "00:40.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana clutches the thick book to her chest as she and Prudence sprint swiftly through the village."
+          },
+          {
+            "t": "00:42.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Heavy, raspy chest coughs echoing in the small room, accompanied by crackling hearth fire."
+          },
+          {
+            "t": "00:45.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana rushes in, sets the ledger on the rustic wooden table, and quickly flips open the pages."
+          },
+          {
+            "t": "00:47.30",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Alarmed, Focused",
+            "text": "His skin is burning hot."
+          },
+          {
+            "t": "00:48.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana places her bandaged hand against Toby's flushed, sweating forehead as he wheezes painfully."
+          },
+          {
+            "t": "00:48.90",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Commanding",
+            "text": "Prudence, fetch hot water immediately!"
+          },
+          {
+            "t": "00:51.20",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Hurried, Obedient",
+            "text": "Yes! Right away, I will get it!"
+          },
+          {
+            "t": "00:53.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Prudence wraps a cloth around the iron handle of the steaming kettle resting over the hearth fire and lifts it."
+          },
+          {
+            "t": "00:54.10",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "V.O.) (Introspective, Determined",
+            "text": "I cannot let my own weariness stop me. This boy needs my mother's knowledge."
+          },
+          {
+            "t": "00:58.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana crushes dried herbal leaves into a dark wooden bowl between her bandaged hands, then pours steaming water over them from the kettle."
+          },
+          {
+            "t": "01:00.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana sits beside the pallet and brings the steaming herbal bowl close to Toby's face while Prudence cradles his shoulders."
+          },
+          {
+            "t": "01:01.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Instructive, Calm",
+            "text": "Lift his shoulders, Prudence. Hold the steam close. Let him inhale."
+          }
+        ]
+      ],
+      "score": 67.0,
+      "rank_score": 53.9,
+      "rank": 18,
+      "id": "P18",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "40\u2011WitchThreat",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 40,
+          "start": "00:26.20",
+          "end": "01:21.00",
+          "start_sec": 26.2,
+          "end_sec": 81.0,
+          "duration": 54.8,
+          "from_block": "E40-B013",
+          "to_block": "E40-B038"
+        }
+      ],
+      "total_duration": 54.8,
+      "hook": "She won't be seeing anything for long.",
+      "cliffhanger": "And its witch will be dead.",
+      "why": "Immediate menace against Juliana hooks viewers, and the looming execution threat ends on a deadly promise.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.25,
+        "cliffhanger": 0.6
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:26.20",
+            "kind": "DIALOGUE",
+            "speaker": "LORD HARRINGTON",
+            "emotion": "Sinister, Dismissive",
+            "text": "She won't be seeing anything for long."
+          },
+          {
+            "t": "00:29.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY HARRINGTON",
+            "emotion": "Pleased, Cold",
+            "text": "Good."
+          },
+          {
+            "t": "00:30.10",
+            "kind": "DIALOGUE",
+            "speaker": "LORD HARRINGTON",
+            "emotion": "Chuckling, Scornful",
+            "text": "This place has always been unlucky for Juliana."
+          },
+          {
+            "t": "00:32.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Harrington lets out a soft, amused laugh as they reach the heavy wooden cathedral doors."
+          },
+          {
+            "t": "00:34.40",
+            "kind": "DIALOGUE",
+            "speaker": "LADY HARRINGTON",
+            "emotion": "Vindictive, Pious",
+            "text": "She stands beneath God's watch and still gets exactly what she deserves."
+          },
+          {
+            "t": "00:40.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lord and Lady Harrington slide gracefully into the polished wooden pew, smoothing their garments."
+          },
+          {
+            "t": "00:42.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY HARRINGTON",
+            "emotion": "Anticipatory, Eager",
+            "text": "We have an excellent view."
+          },
+          {
+            "t": "00:44.10",
+            "kind": "DIALOGUE",
+            "speaker": "LORD HARRINGTON",
+            "emotion": "Inquiring, Subdued",
+            "text": "Of the wedding?"
+          },
+          {
+            "t": "00:45.30",
+            "kind": "DIALOGUE",
+            "speaker": "LADY HARRINGTON",
+            "emotion": "Chilling, Sarcastic",
+            "text": "And everything that comes after it."
+          },
+          {
+            "t": "00:50.80",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Nervous, Determined",
+            "text": "Everything must go perfectly."
+          },
+          {
+            "t": "00:53.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Rupert smooths the lapels of his coat, checking his posture as he waits for the bride."
+          },
+          {
+            "t": "01:05.00",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Stern, Scheming",
+            "text": "All entrances are covered?"
+          },
+          {
+            "t": "01:06.90",
+            "kind": "DIALOGUE",
+            "speaker": "ROYAL GUARD",
+            "emotion": "Obedient, Firm",
+            "text": "Every one, my Lord."
+          },
+          {
+            "t": "01:08.30",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Calculating",
+            "text": "Good."
+          },
+          {
+            "t": "01:09.80",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Ruthless, Victorious",
+            "text": "By sunset, Ashburgh will have its new Duke and Duchess."
+          },
+          {
+            "t": "01:14.80",
+            "kind": "DIALOGUE",
+            "speaker": "ELDER NOBLEMAN",
+            "emotion": "Deadly, Uncompromising",
+            "text": "And its witch will be dead."
+          },
+          {
+            "t": "01:18.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "The heavy creak of massive wooden cathedral doors swinging open, accompanied by swelling bridal organ music."
+          }
+        ]
+      ],
+      "score": 67.0,
+      "rank_score": 53.9,
+      "rank": 19,
+      "id": "P19",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep9: Rumor of the Duke",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 9,
+          "start": "01:14.80",
+          "end": "01:42.20",
+          "start_sec": 74.8,
+          "end_sec": 102.2,
+          "duration": 27.4,
+          "from_block": "E09-B058",
+          "to_block": "E09-B078"
+        }
+      ],
+      "total_duration": 27.4,
+      "hook": "You cannot let the whole village start talking about you.",
+      "cliffhanger": "The Blond Nobleman whispers, \u201cImpossible,\u201d as the rumor about a scarred war veteran spreads.",
+      "why": "A stark warning about gossip followed by a nobleman's shaken reaction plants a dangerous secret that begs for answers.",
+      "trope": "other",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.29,
+        "cliffhanger": 0.3
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:15.10",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Stern, Warning",
+            "text": "You cannot let the whole village start talking about you."
+          },
+          {
+            "t": "01:17.60",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Defiant, Principled",
+            "text": "A child's life matters more than gossip."
+          },
+          {
+            "t": "01:19.60",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Dark, Cautionary",
+            "text": "Gossip has a way of becoming dangerous."
+          },
+          {
+            "t": "01:22.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Committed, Unshakable",
+            "text": "Then we will face it together."
+          },
+          {
+            "t": "01:24.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Former Groom, soaked from the rain and clutching his hat, walks nervously through the double doors into the study."
+          },
+          {
+            "t": "01:26.60",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Aloof, Without Looking Up",
+            "text": "What is it?"
+          },
+          {
+            "t": "01:28.00",
+            "kind": "DIALOGUE",
+            "speaker": "THE FORMER GROOM",
+            "emotion": "Hesitant, Deferential",
+            "text": "There is a rumor going around, my Lord."
+          },
+          {
+            "t": "01:30.60",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Coldly Curious",
+            "text": "What rumor?"
+          },
+          {
+            "t": "01:32.10",
+            "kind": "DIALOGUE",
+            "speaker": "THE FORMER GROOM",
+            "emotion": "Uneasy",
+            "text": "About a war veteran. Some say he resembles the late Duke."
+          },
+          {
+            "t": "01:35.30",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Mocking, Arrogant",
+            "text": "People see ghosts whenever they want a story."
+          },
+          {
+            "t": "01:37.50",
+            "kind": "DIALOGUE",
+            "speaker": "THE FORMER GROOM",
+            "emotion": "Tense, Solemn",
+            "text": "The man is said to have the same kind of scar the Duke carried after the war."
+          },
+          {
+            "t": "01:41.40",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Sharp, Demanding",
+            "text": "Where?"
+          }
+        ]
+      ],
+      "score": 61.9,
+      "rank_score": 53.5,
+      "rank": 20,
+      "id": "P20",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "41\u2011CatherineShowdown",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 41,
+          "start": "00:08.50",
+          "end": "00:57.80",
+          "start_sec": 8.5,
+          "end_sec": 57.8,
+          "duration": 49.3,
+          "from_block": "E41-B006",
+          "to_block": "E41-B031"
+        }
+      ],
+      "total_duration": 49.3,
+      "hook": "I want everyone to see what happens to a woman who dares defy this family.",
+      "cliffhanger": "Juliana: \"You needed an entire chapel to feel powerful over one chained woman?\"",
+      "why": "Catherine\u2019s cruel proclamation and Juliana\u2019s defiant retort create a tense stand\u2011off that stops just before any resolution.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 5,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.28,
+        "cliffhanger": 0.0
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:08.50",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Cruel, Resonant",
+            "text": "...I want everyone to see what happens to a woman who dares defy this family."
+          },
+          {
+            "t": "00:13.20",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Subdued, Inquiring",
+            "text": "Catherine..."
+          },
+          {
+            "t": "00:14.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Callous, Projecting",
+            "text": "Bring her in."
+          },
+          {
+            "t": "00:15.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Heavy wooden creak of the cathedral double doors swinging open."
+          },
+          {
+            "t": "00:17.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana, dressed in a coarse drab prison dress with a numbered identification badge, is marched forward by two armed constables holding her by the arms."
+          },
+          {
+            "t": "00:26.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Smug, Taunting",
+            "text": "There she is."
+          },
+          {
+            "t": "00:30.50",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Gleeful, Whispering",
+            "text": "Look at her."
+          },
+          {
+            "t": "00:31.70",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEMAN",
+            "emotion": "Mocking, Chuckling",
+            "text": "She actually came back to the chapel."
+          },
+          {
+            "t": "00:34.80",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEWOMAN",
+            "emotion": "Scornful, Smug",
+            "text": "Not as a bride this time."
+          },
+          {
+            "t": "00:41.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "O.S.) (Derisive, Projecting",
+            "text": "Lady Juliana Ashcroft. Look around."
+          },
+          {
+            "t": "00:45.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "V.O.) (Mocking, Resonant",
+            "text": "This is the world you thought you belonged to."
+          },
+          {
+            "t": "00:48.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Spiteful, Boastful",
+            "text": "And now they can all see what you truly are."
+          },
+          {
+            "t": "00:54.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana looks around the cathedral at the sea of pompous faces, then raises her eyes straight back to Catherine with utter disdain."
+          }
+        ]
+      ],
+      "score": 65.8,
+      "rank_score": 52.9,
+      "rank": 21,
+      "id": "P21",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Vengeance Countdown",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 36,
+          "start": "02:40.00",
+          "end": "03:16.80",
+          "start_sec": 160.0,
+          "end_sec": 196.8,
+          "duration": 36.8,
+          "from_block": "E36-B099",
+          "to_block": "E36-B118"
+        }
+      ],
+      "total_duration": 36.8,
+      "hook": "\u2026and killing my wife afterward.",
+      "cliffhanger": "\u2026their dead Duke is coming home.",
+      "why": "A chilling admission of murder sets a ticking clock, and the final ominous promise about the dead Duke leaves the audience desperate for the next move.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.29,
+        "cliffhanger": 0.68
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "02:40.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Deadly, Throaty",
+            "text": "...and killing my wife afterward."
+          },
+          {
+            "t": "02:43.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Pleading, Terrified",
+            "text": "Alexander, you cannot go back there alone!"
+          },
+          {
+            "t": "02:48.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grave, Seething",
+            "text": "They already took my name."
+          },
+          {
+            "t": "02:51.60",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Roaring with Conviction",
+            "text": "They stole my home!"
+          },
+          {
+            "t": "02:54.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Venomous",
+            "text": "And now they have taken Juliana!"
+          },
+          {
+            "t": "02:57.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Close-up of Alexander's gloved hand clenching into a tight, leather-creaking fist."
+          },
+          {
+            "t": "02:57.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "The sharp, taut creak of leather straining under monstrous grip strength."
+          },
+          {
+            "t": "03:00.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander stands framed in the doorway, staring out into the vast, snow-covered pine forest under the cold moonlight."
+          },
+          {
+            "t": "03:02.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Calm, Chilling",
+            "text": "Two days."
+          },
+          {
+            "t": "03:04.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Vow of Vengeance",
+            "text": "Then they have two days to celebrate."
+          },
+          {
+            "t": "03:09.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Low, Menacing Promise",
+            "text": "Because before that wedding begins..."
+          },
+          {
+            "t": "03:13.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Thunderous Finale",
+            "text": "...their dead Duke is coming home."
+          }
+        ]
+      ],
+      "score": 64.4,
+      "rank_score": 51.8,
+      "rank": 22,
+      "id": "P22",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "45_DukeAndDuchess",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 45,
+          "start": "00:17.10",
+          "end": "00:42.00",
+          "start_sec": 17.1,
+          "end_sec": 42.0,
+          "duration": 24.9,
+          "from_block": "E45-B014",
+          "to_block": "E45-B030"
+        },
+        {
+          "episode": 45,
+          "start": "01:26.50",
+          "end": "01:45.80",
+          "start_sec": 86.5,
+          "end_sec": 105.8,
+          "duration": 19.3,
+          "from_block": "E45-B057",
+          "to_block": "E45-B065"
+        }
+      ],
+      "total_duration": 44.2,
+      "hook": "Juliana (Emotional, Realizing): \"It's you.\"",
+      "cliffhanger": "High Priest (Commanding, Severe): \"These vows were never entered into the Royal Matrimonial Register.\"",
+      "why": "A heartfelt reunion instantly grabs attention, then the sudden legal challenge shatters the triumph, forcing viewers to wonder what will happen next.",
+      "trope": "secret identity",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 5,
+        "standalone": 4,
+        "spoiler_risk": 3
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.07
+      },
+      "flags": [
+        "multi_segment",
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:17.10",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Emotional, Realizing",
+            "text": "It's you."
+          },
+          {
+            "t": "00:19.40",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Solemn, Loving",
+            "text": "It was always me."
+          },
+          {
+            "t": "00:21.90",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander places the ducal cloak over Juliana's rustic gown, adjusting it gently over her shoulders."
+          },
+          {
+            "t": "00:22.90",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Shocked, Wondering",
+            "text": "You're the Duke?"
+          },
+          {
+            "t": "00:24.60",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Firm, Resonant",
+            "text": "Alexander Ashburton. The rightful Duke of Ashburton."
+          },
+          {
+            "t": "00:27.60",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Incredulous, Moved",
+            "text": "All this time?"
+          },
+          {
+            "t": "00:30.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Tender, Deep",
+            "text": "You chose me when you believed I was nobody."
+          },
+          {
+            "t": "00:33.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Sincere, Loving",
+            "text": "I chose you because you were kind."
+          },
+          {
+            "t": "00:35.10",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Low, Passionate",
+            "text": "You chose me when I had nothing."
+          },
+          {
+            "t": "00:37.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Resolute, Warm",
+            "text": "I chose you because you had honor."
+          },
+          {
+            "t": "00:38.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Earnest, Devoted",
+            "text": "And I chose you because you saw the man before the title."
+          }
+        ],
+        [
+          {
+            "t": "01:26.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Loud, echoing thud of cathedral doors swinging open violently."
+          },
+          {
+            "t": "01:27.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "A Catholic Bishop in dark vestments steps through the cathedral doors accompanied by an armed Crown officer."
+          },
+          {
+            "t": "01:28.40",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Booming, Stern",
+            "text": "No one will bow yet!"
+          },
+          {
+            "t": "01:33.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Priest holds up the sealed royal proclamation, holding his rosary beads as he marches forward."
+          },
+          {
+            "t": "01:33.20",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Commanding, Severe",
+            "text": "This ceremony was performed without a Crown marriage license, by a priest without authority to sanctify a ducal union."
+          },
+          {
+            "t": "01:41.50",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Stern, Official",
+            "text": "These vows were never entered into the Royal Matrimonial Register."
+          }
+        ]
+      ],
+      "score": 59.8,
+      "rank_score": 51.7,
+      "rank": 23,
+      "id": "P23",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Conspiracy & Exposure",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 49,
+          "start": "01:43.80",
+          "end": "02:19.80",
+          "start_sec": 103.8,
+          "end_sec": 139.8,
+          "duration": 36.0,
+          "from_block": "E49-B045",
+          "to_block": "E49-B056"
+        },
+        {
+          "episode": 50,
+          "start": "01:13.50",
+          "end": "01:20.00",
+          "start_sec": 73.5,
+          "end_sec": 80.0,
+          "duration": 6.5,
+          "from_block": "E50-B035",
+          "to_block": "E50-B038"
+        }
+      ],
+      "total_duration": 42.5,
+      "hook": "If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?",
+      "cliffhanger": "Father Thomas warns that the pact hinges on Catherine\u2019s silence, then Agnes bursts into the room and gasps at their illicit embrace \u2013 will the secret be exposed?",
+      "why": "Shows a high\u2011stakes treason pact and an immediate, shocking discovery, giving a cold viewer instant drama and a question that demands a click.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.36,
+        "cliffhanger": 1.0
+      },
+      "flags": [
+        "multi_segment",
+        "cross_episode"
+      ],
+      "script": [
+        [
+          {
+            "t": "01:44.20",
+            "kind": "DIALOGUE",
+            "speaker": "FATHER THOMAS",
+            "emotion": "Wary, Grave",
+            "text": "If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?"
+          },
+          {
+            "t": "01:53.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Seductive, Reassuring",
+            "text": "Then make certain he doesn't find out. You're careful. I've seen how careful."
+          },
+          {
+            "t": "01:58.20",
+            "kind": "DIALOGUE",
+            "speaker": "FATHER THOMAS",
+            "emotion": "Stern, Stark",
+            "text": "Careful men still hang, my lady, when the crime is treason against a Duke the King himself just restored."
+          },
+          {
+            "t": "02:05.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Tempting",
+            "text": "Careful men who help me also get remembered."
+          },
+          {
+            "t": "02:09.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Whispering, Promising",
+            "text": "A grateful Duchess collects debts differently than a desperate one."
+          },
+          {
+            "t": "02:15.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Father Thomas slowly raises his right hand, palm turned upward in invitation and pact."
+          },
+          {
+            "t": "02:15.20",
+            "kind": "DIALOGUE",
+            "speaker": "FATHER THOMAS",
+            "emotion": "Low, Resigned",
+            "text": "The rest depends on how well you keep your part of this quiet."
+          }
+        ],
+        [
+          {
+            "t": "01:14.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Through the crack of the door, Agnes sees Catherine and the shirtless priest locked in an intimate, passionate embrace upon the bed."
+          },
+          {
+            "t": "01:16.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Agnes's jaw drops open in shock as she stifles a cry."
+          },
+          {
+            "t": "01:17.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Sharp, terrified gasp catching in Agnes's throat."
+          }
+        ]
+      ],
+      "score": 66.1,
+      "rank_score": 49.4,
+      "rank": 24,
+      "id": "P24",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "EP22_Threat_to_Maid",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 22,
+          "start": "01:13.00",
+          "end": "02:05.80",
+          "start_sec": 73.0,
+          "end_sec": 125.8,
+          "duration": 52.8,
+          "from_block": "E22-B046",
+          "to_block": "E22-B074"
+        }
+      ],
+      "total_duration": 52.8,
+      "hook": "HOUSEKEEPER (Stern, Dismissive): \u201cThen prove it. The manor has no use for useless girls.\u201d",
+      "cliffhanger": "LADY JULIANA (Shocked, Murmuring): \u201cThis isn\u2019t ordinary fever.\u201d \u2013 her horrified realization leaves the cause of the Duchess\u2019s illness unknown.",
+      "why": "A brutal threat instantly shows Juliana\u2019s danger, then the sudden, eerie diagnosis leaves viewers desperate to know the poison\u2019s source.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.59
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "01:13.20",
+            "kind": "DIALOGUE",
+            "speaker": "HOUSEKEEPER",
+            "emotion": "Stern, Dismissive",
+            "text": "Then prove it. The manor has no use for useless girls."
+          },
+          {
+            "t": "01:17.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Housekeeper turns and stalks away down the corridor. Prudence exhales a trembling breath of relief."
+          },
+          {
+            "t": "01:19.00",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Relieved, Whispering",
+            "text": "That was close."
+          },
+          {
+            "t": "01:22.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Urgent, Quiet",
+            "text": "Where is the West Wing?"
+          },
+          {
+            "t": "01:24.80",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Nervous, Warning",
+            "text": "Beyond the grand staircase. Few servants go there."
+          },
+          {
+            "t": "01:31.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana stops in her tracks and gazes upward in awe at the soaring gilded ceilings and aristocratic crest."
+          },
+          {
+            "t": "01:34.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Breathless",
+            "text": "This house..."
+          },
+          {
+            "t": "01:36.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Prudence rushes into frame, grabbing Juliana's arm to keep her moving."
+          },
+          {
+            "t": "01:36.00",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Panicked, Hushed",
+            "text": "Do not stare. Keep walking."
+          },
+          {
+            "t": "01:45.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana reaches out with a trembling hand and quietly turns the ornate brass and glass door knob."
+          },
+          {
+            "t": "01:46.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Faint, muffled click of the heavy door lock turning."
+          },
+          {
+            "t": "01:49.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Labored, raspy, shallow breathing echoing in the quiet room."
+          },
+          {
+            "t": "01:53.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana hurries inside, sets the wooden bucket onto the floor, and rushes to the bedside."
+          },
+          {
+            "t": "01:54.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Gentle, Concerned",
+            "text": "Your Grace?"
+          },
+          {
+            "t": "01:58.20",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Soft, Comforting",
+            "text": "Do not speak."
+          },
+          {
+            "t": "02:03.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lady Juliana's eyes widen with sudden, horrifying realization."
+          },
+          {
+            "t": "02:03.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Shocked, Murmuring",
+            "text": "This isn't ordinary fever."
+          }
+        ]
+      ],
+      "score": 64.5,
+      "rank_score": 48.2,
+      "rank": 25,
+      "id": "P25",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep25_HandGrab",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 25,
+          "start": "00:32.80",
+          "end": "01:30.20",
+          "start_sec": 32.8,
+          "end_sec": 90.2,
+          "duration": 57.4,
+          "from_block": "E25-B020",
+          "to_block": "E25-B051"
+        }
+      ],
+      "total_duration": 57.4,
+      "hook": "Alexander steps directly into Juliana\u2019s space, firmly taking her hand \u2013 a sudden, intimate grab that shocks the viewer.",
+      "cliffhanger": "Alexander\u2019s hand drops and clenches into a white\u2011knuckled fist as the tension spikes, leaving us wondering what he\u2019s about to do.",
+      "why": "A visceral physical hook followed by the poisonous secret creates instant stakes that a new viewer can grasp without prior context.",
+      "trope": "other",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.12
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:32.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander steps directly into her space, firmly taking her hand in his."
+          },
+          {
+            "t": "00:32.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Demanding, Stern",
+            "text": "Who?"
+          },
+          {
+            "t": "00:36.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Quiet, Apprehensive",
+            "text": "Lady Catherine."
+          },
+          {
+            "t": "00:39.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Low, Interrogating",
+            "text": "Where did you meet her?"
+          },
+          {
+            "t": "00:41.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hedged",
+            "text": "I was in the wrong chamber. I was punished as a maid."
+          },
+          {
+            "t": "00:44.60",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Incredulous, Demanding",
+            "text": "What were you doing there?"
+          },
+          {
+            "t": "00:47.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Fierce, Urgent",
+            "text": "Juliana... why were you inside Ashburg Manor?"
+          },
+          {
+            "t": "00:52.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Earnest",
+            "text": "I went there to help someone."
+          },
+          {
+            "t": "00:54.40",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Blunt",
+            "text": "Who?"
+          },
+          {
+            "t": "00:55.60",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Solemn",
+            "text": "The Dowager Duchess."
+          },
+          {
+            "t": "01:00.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Stunned, Disbelieving",
+            "text": "The Dowager?"
+          },
+          {
+            "t": "01:06.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Urgent",
+            "text": "Prudence told me she was dying."
+          },
+          {
+            "t": "01:08.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Fervent",
+            "text": "She was barely breathing when I found her. The doctor said she was simply growing old."
+          },
+          {
+            "t": "01:14.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Chilling, Definite",
+            "text": "But it wasn't age."
+          },
+          {
+            "t": "01:17.40",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grim, Low",
+            "text": "What did you find?"
+          },
+          {
+            "t": "01:20.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hushed, Horrified",
+            "text": "Poison."
+          },
+          {
+            "t": "01:23.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Sober",
+            "text": "Arsenic."
+          },
+          {
+            "t": "01:26.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander's hand drops to his side and clenches into a white-knuckled fist, the thick scar across his hand tightening with intense restraint."
+          }
+        ]
+      ],
+      "score": 59.4,
+      "rank_score": 47.8,
+      "rank": 26,
+      "id": "P26",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "42\u2011AlexanderRevenge",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:33.80",
+          "end": "01:17.80",
+          "start_sec": 33.8,
+          "end_sec": 77.8,
+          "duration": 44.0,
+          "from_block": "E42-B022",
+          "to_block": "E42-B036"
+        }
+      ],
+      "total_duration": 44.0,
+      "hook": "You already know.",
+      "cliffhanger": "And now, Rupert... we settle what you stole.",
+      "why": "Alexander\u2019s cold reveal and the final threat to Rupert leave the audience craving the inevitable showdown.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.5,
+        "cliffhanger": 0.35
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:34.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Commanding",
+            "text": "And yet, here I stand. That is the lie you built your life upon."
+          },
+          {
+            "t": "00:40.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Choked with Tears",
+            "text": "Alexander..."
+          },
+          {
+            "t": "00:44.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander halts his march as his mother reaches him, placing her frail hands gently upon his chest."
+          },
+          {
+            "t": "00:48.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Soft, Reverent",
+            "text": "Mother."
+          },
+          {
+            "t": "00:49.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence."
+          },
+          {
+            "t": "00:49.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Overcome, Loving",
+            "text": "Look at you... my beautiful boy."
+          },
+          {
+            "t": "00:54.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Tearful, Proud",
+            "text": "I saw you again... but seeing you like this... I see my son as he was always meant to be."
+          },
+          {
+            "t": "01:02.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Tender, Resolute",
+            "text": "I have come home, Mother."
+          },
+          {
+            "t": "01:04.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander's mother turns toward the gathered nobility and guards, raising her chin and pointing proudly toward Alexander."
+          },
+          {
+            "t": "01:04.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER'S MOTHER",
+            "emotion": "Ringing, Authoritative",
+            "text": "Let everyone hear me! This is my son... Alexander Ashburn. The rightful Duke of Ashburn!"
+          },
+          {
+            "t": "01:13.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grim, Vengeful",
+            "text": "And now, Rupert... we settle what you stole."
+          }
+        ]
+      ],
+      "score": 63.0,
+      "rank_score": 47.1,
+      "rank": 27,
+      "id": "P27",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "EP23_Poison_Realization",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 23,
+          "start": "00:58.50",
+          "end": "01:55.00",
+          "start_sec": 58.5,
+          "end_sec": 115.0,
+          "duration": 56.5,
+          "from_block": "E23-B027",
+          "to_block": "E23-B057"
+        }
+      ],
+      "total_duration": 56.5,
+      "hook": "LADY JULIANA (Breathless, Reverent): \u201cMother.\u201d",
+      "cliffhanger": "SOUND FX (Sudden muffled thump and heavy footsteps echoing from the hallway) \u2013 the imminent arrival of an unknown intruder stops the antidote in its tracks.",
+      "why": "A single, shocked word hints a deep secret, then the looming footsteps create a tense \u201csomeone\u2019s coming\u201d moment that begs a click.",
+      "trope": "secret identity",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:58.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Breathless, Reverent",
+            "text": "Mother."
+          },
+          {
+            "t": "01:00.80",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Urgent, Baffled",
+            "text": "What is it?"
+          },
+          {
+            "t": "01:02.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Shocked, Deliberate",
+            "text": "Weakness. Dry mouth. The discoloration beneath the nails. The slow wasting."
+          },
+          {
+            "t": "01:10.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Serious, Chilled",
+            "text": "I have seen these symptoms before."
+          },
+          {
+            "t": "01:13.80",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Panicked, Shaken",
+            "text": "What are you saying?"
+          },
+          {
+            "t": "01:19.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Cold, Deadly Serious",
+            "text": "Someone is poisoning her."
+          },
+          {
+            "t": "01:21.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Sharp intake of breath from Prudence."
+          },
+          {
+            "t": "01:22.00",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Muffled, Horrified",
+            "text": "Poison?"
+          },
+          {
+            "t": "01:26.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Venomous, Resolute",
+            "text": "Arsenic."
+          },
+          {
+            "t": "01:28.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Sudden violent coughing and sputtering from the Duchess."
+          },
+          {
+            "t": "01:34.50",
+            "kind": "DIALOGUE",
+            "speaker": "PRUDENCE",
+            "emotion": "Desperate, Begging",
+            "text": "Can you save her?"
+          },
+          {
+            "t": "01:37.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Focused, Resolute",
+            "text": "I can try."
+          },
+          {
+            "t": "01:44.50",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Heavy, rhythmic scraping of stone pestle grinding charcoal and dried herbs."
+          },
+          {
+            "t": "01:47.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY JULIANA",
+            "emotion": "Urgent, Focused",
+            "text": "The charcoal may help remove what is still inside her. We must act quickly."
+          },
+          {
+            "t": "01:52.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Sudden muffled thump and heavy footsteps echoing from the hallway outside the door!"
+          }
+        ]
+      ],
+      "score": 57.4,
+      "rank_score": 46.2,
+      "rank": 28,
+      "id": "P28",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep37\u2011Betrayal Reveal",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 37,
+          "start": "00:23.20",
+          "end": "00:56.20",
+          "start_sec": 23.2,
+          "end_sec": 56.2,
+          "duration": 33.0,
+          "from_block": "E37-B013",
+          "to_block": "E37-B031"
+        }
+      ],
+      "total_duration": 33.0,
+      "hook": "Juliana's execution comes after the wedding.",
+      "cliffhanger": "Clarissa whispers, \u201cAnd after the ceremony\u2026\u201d, hinting at a deadly surprise.",
+      "why": "A cold viewer instantly sees the cruel plan to marry and then kill Juliana, and is left hanging on the ominous promise.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.41,
+        "cliffhanger": 0.3
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:23.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Venomous Satisfaction",
+            "text": "Juliana's execution comes after the wedding."
+          },
+          {
+            "t": "00:26.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Gleeful",
+            "text": "Perfect timing. It will be a feast for our guests."
+          },
+          {
+            "t": "00:30.20",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Rupert) (Decisive",
+            "text": "Send the invitations."
+          },
+          {
+            "t": "00:32.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Spiteful",
+            "text": "Especially to the Ashcrofts."
+          },
+          {
+            "t": "00:37.00",
+            "kind": "DIALOGUE",
+            "speaker": "BUTLER",
+            "emotion": "Formal",
+            "text": "Lady Clarissa, an invitation from Ashbridge Manor."
+          },
+          {
+            "t": "00:39.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Clarissa takes the cream envelope, breaks the red wax seal with her gloved thumbs, and slides out the heavy card."
+          },
+          {
+            "t": "00:44.50",
+            "kind": "DIALOGUE",
+            "speaker": "LADY CLARISSA",
+            "emotion": "Amused, Thrilled",
+            "text": "Catherine's wedding."
+          },
+          {
+            "t": "00:47.00",
+            "kind": "DIALOGUE",
+            "speaker": "NOBLEMAN",
+            "emotion": "Observant",
+            "text": "So it is finally official."
+          },
+          {
+            "t": "00:50.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY CLARISSA",
+            "emotion": "Mockingly Reverent",
+            "text": "Lady Catherine Ashbridge."
+          },
+          {
+            "t": "00:54.00",
+            "kind": "DIALOGUE",
+            "speaker": "LADY CLARISSA",
+            "emotion": "Intrigued",
+            "text": "And after the ceremony..."
+          }
+        ]
+      ],
+      "score": 65.3,
+      "rank_score": 45.4,
+      "rank": 29,
+      "id": "P29",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "E17\u2011Promise\u2011BleedingHand",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 17,
+          "start": "00:28.00",
+          "end": "00:58.50",
+          "start_sec": 28.0,
+          "end_sec": 58.5,
+          "duration": 30.5,
+          "from_block": "E17-B021",
+          "to_block": "E17-B040"
+        }
+      ],
+      "total_duration": 30.5,
+      "hook": "Alexander drops to one knee, taking Juliana\u2019s trembling, bandaged hands.",
+      "cliffhanger": "Juliana whispers, \u201cI was frightened,\u201d leaving us wondering if Alexander can truly keep her safe.",
+      "why": "A tender promise is made in a moment of visible danger, then cuts before the reassurance is given, creating emotional tension.",
+      "trope": "romance/tension",
+      "llm_scores": {
+        "hook": 3,
+        "cliffhanger": 3,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:28.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander drops to one knee before Juliana, gently taking her trembling, bandaged hands into his large, weathered palms."
+          },
+          {
+            "t": "00:28.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Gentle, Vowing",
+            "text": "...no one will hurt you again."
+          },
+          {
+            "t": "00:32.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Choked Up, Pained",
+            "text": "You cannot promise that."
+          },
+          {
+            "t": "00:34.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Quiet, Absolute",
+            "text": "I just did."
+          },
+          {
+            "t": "00:36.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander squeezes Juliana's hands reassuringly as she rests her fingertips against his skin. The scene fades to black."
+          },
+          {
+            "t": "00:40.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana wrings out a clean linen cloth from the basin and tenderly dabs at the fresh cuts and abrasions on the back of Alexander's right hand."
+          },
+          {
+            "t": "00:42.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Tender, Reproachful",
+            "text": "You were bleeding last night."
+          },
+          {
+            "t": "00:46.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Quiet, Fond",
+            "text": "So were you."
+          },
+          {
+            "t": "00:49.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Softly Teasing",
+            "text": "You make it very difficult to argue with you."
+          },
+          {
+            "t": "00:53.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana returns the damp cloth to the ceramic basin, her expression turning somber and reflective."
+          },
+          {
+            "t": "00:56.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Vulnerable, Sincere",
+            "text": "I was frightened."
+          }
+        ]
+      ],
+      "score": 46.8,
+      "rank_score": 43.5,
+      "rank": 30,
+      "id": "P30",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "33-testimony-coercion",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 33,
+          "start": "01:16.80",
+          "end": "02:14.50",
+          "start_sec": 76.8,
+          "end_sec": 134.5,
+          "duration": 57.7,
+          "from_block": "E33-B046",
+          "to_block": "E33-B078"
+        }
+      ],
+      "total_duration": 57.7,
+      "hook": "MAID (Crying, Shattered): \"What do you want me to say?!\"",
+      "cliffhanger": "LORD (Cold, Merciless): \"That will be your testimony.\"",
+      "why": "A desperate plea under a cruel threat creates immediate tension, ending on the forced testimony that promises dire consequences.",
+      "trope": "humiliation",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.2,
+        "cliffhanger": 0.18
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "01:16.80",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Crying, Shattered",
+            "text": "What do you want me to say?!"
+          },
+          {
+            "t": "01:19.60",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Deceptive",
+            "text": "The truth."
+          },
+          {
+            "t": "01:21.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Leading, Deliberate",
+            "text": "She drew something around the bed, did she not?"
+          },
+          {
+            "t": "01:25.50",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Trembling, Reluctant",
+            "text": "She... placed dried herbs around him."
+          },
+          {
+            "t": "01:29.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Hypnotic, Coercive",
+            "text": "Around him."
+          },
+          {
+            "t": "01:31.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Coercive",
+            "text": "Like a circle?"
+          },
+          {
+            "t": "01:33.00",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Faint, Defeated",
+            "text": "Yes."
+          },
+          {
+            "t": "01:35.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Whispering, Trap Snapping",
+            "text": "And she opened her mother's book..."
+          },
+          {
+            "t": "01:38.50",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Sobbing",
+            "text": "Yes."
+          },
+          {
+            "t": "01:41.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Sinister",
+            "text": "...and spoke words you could not understand."
+          },
+          {
+            "t": "01:44.50",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Desperately Defending",
+            "text": "She was praying!"
+          },
+          {
+            "t": "01:48.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Taunting",
+            "text": "Praying... or chanting?"
+          },
+          {
+            "t": "01:52.00",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Hysterically Sobbing",
+            "text": "I don't know!"
+          },
+          {
+            "t": "01:54.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Calculating, Relentless",
+            "text": "You saw a woman draw a circle of herbs."
+          },
+          {
+            "t": "01:56.80",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Relentless",
+            "text": "You saw her use a forbidden book."
+          },
+          {
+            "t": "01:59.80",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Condemning",
+            "text": "You heard words you could not understand."
+          },
+          {
+            "t": "02:04.50",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Deadly, Resolute",
+            "text": "That is witchcraft."
+          },
+          {
+            "t": "02:06.80",
+            "kind": "DIALOGUE",
+            "speaker": "MAID",
+            "emotion": "Crying Out, Desperate",
+            "text": "No! She saved Toby! She made him breathe again!"
+          },
+          {
+            "t": "02:12.00",
+            "kind": "DIALOGUE",
+            "speaker": "LORD",
+            "emotion": "Cold, Final",
+            "text": "That will be your testimony."
+          }
+        ]
+      ],
+      "score": 61.4,
+      "rank_score": 42.7,
+      "rank": 31,
+      "id": "P31",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Catherine's Vengeful Plot",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 48,
+          "start": "00:34.00",
+          "end": "01:06.90",
+          "start_sec": 34.0,
+          "end_sec": 66.9,
+          "duration": 32.9,
+          "from_block": "E48-B022",
+          "to_block": "E48-B036"
+        }
+      ],
+      "total_duration": 32.9,
+      "hook": "Everyone in that chapel saw me humiliated today.",
+      "cliffhanger": "That is precisely your job tonight.",
+      "why": "Catherine\u2019s venomous confession of humiliation instantly grabs attention, then a secretive order leaves viewers hanging on what dark move she\u2019ll make.",
+      "trope": "revenge",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.27
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:34.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine strides forward and firmly grasps Agnes by both hands, stepping uncomfortably close."
+          },
+          {
+            "t": "00:34.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Fierce, Hissing",
+            "text": "Everyone in that chapel saw me humiliated today."
+          },
+          {
+            "t": "00:37.30",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Spiteful, calculating",
+            "text": "Good. Let them remember it."
+          },
+          {
+            "t": "00:39.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Sinister, Predatory",
+            "text": "Grief makes people careless, and carelessness is exactly what I need from that household right now."
+          },
+          {
+            "t": "00:43.30",
+            "kind": "DIALOGUE",
+            "speaker": "AGNES",
+            "emotion": "Anxious, Whispering",
+            "text": "My lady... the Duke has bailiffs watching every road out of the county."
+          },
+          {
+            "t": "00:47.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Confident, Devious",
+            "text": "I'm not leaving the county, Agnes. I'm going back into that house."
+          },
+          {
+            "t": "00:52.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Pleased, Scheming",
+            "text": "Father Thomas did his part beautifully today."
+          },
+          {
+            "t": "00:55.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Calculated, Demanding",
+            "text": "Now I need him to do a little more before that hearing convenes."
+          },
+          {
+            "t": "00:58.50",
+            "kind": "DIALOGUE",
+            "speaker": "AGNES",
+            "emotion": "Apprehensive",
+            "text": "If someone sees him come to you..."
+          },
+          {
+            "t": "01:01.80",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Stern, Threatening",
+            "text": "Then no one sees him."
+          },
+          {
+            "t": "01:04.30",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Authoritative",
+            "text": "That is precisely your job tonight."
+          }
+        ]
+      ],
+      "score": 61.2,
+      "rank_score": 42.6,
+      "rank": 32,
+      "id": "P32",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep27_RingMystery",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 27,
+          "start": "00:01.30",
+          "end": "00:48.80",
+          "start_sec": 1.3,
+          "end_sec": 48.8,
+          "duration": 47.5,
+          "from_block": "E27-B001",
+          "to_block": "E27-B025"
+        }
+      ],
+      "total_duration": 47.5,
+      "hook": "The Dowager Duchess gasps, \u201cThis ring\u2026\u201d, instantly flagging a hidden connection.",
+      "cliffhanger": "A sudden, violent pounding on the double doors erupts, promising an imminent confrontation.",
+      "why": "A single line about the ring sparks intrigue, and the door\u2011banging cliffhanger forces viewers to wonder who\u2019s coming and why.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.58
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:01.30",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Shaken, Breathless",
+            "text": "This ring..."
+          },
+          {
+            "t": "00:03.40",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Urgent, Demanding",
+            "text": "Look at me, girl. Who gave this to you?"
+          },
+          {
+            "t": "00:06.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hesitant, Sincere",
+            "text": "My husband. He gave it to me when we wed."
+          },
+          {
+            "t": "00:09.70",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Incredulous, Intense",
+            "text": "He is no commoner. What does he do?"
+          },
+          {
+            "t": "00:13.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Earnest, Defending",
+            "text": "He is a soldier. A veteran from the Peninsula."
+          },
+          {
+            "t": "00:17.20",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Trembling, Revelatory",
+            "text": "That is no ordinary band. It bears the Ashbourne crest."
+          },
+          {
+            "t": "00:21.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Confused, Gentle",
+            "text": "No. He lives in a barn. He has nothing but his word."
+          },
+          {
+            "t": "00:26.60",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Emotionally Strained, Weeping",
+            "text": "My lost son wore that exact ring. He went to war..."
+          },
+          {
+            "t": "00:32.10",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Shocked, Breathless",
+            "text": "Your son? He told me he was only a sergeant."
+          },
+          {
+            "t": "00:35.20",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Desperate, Clinging",
+            "text": "My lost son wore that ring!"
+          },
+          {
+            "t": "00:37.80",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "O.S.) (Pleading",
+            "text": "Did your husband serve beside him?"
+          },
+          {
+            "t": "00:41.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Soft, Reverent",
+            "text": "He never spoke of his officers. He only spoke of survival."
+          },
+          {
+            "t": "00:44.50",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Hushed, Desperate",
+            "text": "What is your husband's name?"
+          },
+          {
+            "t": "00:46.40",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Loud, violent pounding echoes on the wooden double doors."
+          }
+        ]
+      ],
+      "score": 64.4,
+      "rank_score": 41.7,
+      "rank": 33,
+      "id": "P33",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep8: Beard Tension",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 8,
+          "start": "00:19.30",
+          "end": "00:51.30",
+          "start_sec": 19.3,
+          "end_sec": 51.3,
+          "duration": 32.0,
+          "from_block": "E08-B018",
+          "to_block": "E08-B043"
+        }
+      ],
+      "total_duration": 32.0,
+      "hook": "You know more about healing than you let on.",
+      "cliffhanger": "Alexander smiles, \u201cWe\u2019ll see,\u201d leaving Juliana\u2019s offer to trim his beard hanging.",
+      "why": "A teasing line sparks curiosity, and the unresolved promise about the beard hints at deeper personal stakes.",
+      "trope": "romance/tension",
+      "llm_scores": {
+        "hook": 3,
+        "cliffhanger": 3,
+        "standalone": 2,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.05,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:19.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Observant, Lightly Teasing",
+            "text": "You know more about healing than you let on."
+          },
+          {
+            "t": "00:22.80",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Quiet, Gritty",
+            "text": "Enough to survive."
+          },
+          {
+            "t": "00:25.00",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Hesitant, Soft",
+            "text": "Your hair and beard..."
+          },
+          {
+            "t": "00:30.10",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Gentle, Tender",
+            "text": "I could trim them for you."
+          },
+          {
+            "t": "00:33.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Firm, Low",
+            "text": "Not yet."
+          },
+          {
+            "t": "00:35.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Puzzled, Curious",
+            "text": "Not yet?"
+          },
+          {
+            "t": "00:37.70",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grounded, Steady",
+            "text": "Let them grow."
+          },
+          {
+            "t": "00:39.90",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Playful, Amused",
+            "text": "You prefer looking like a forest hermit?"
+          },
+          {
+            "t": "00:43.70",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Dry, Droll",
+            "text": "It has advantages."
+          },
+          {
+            "t": "00:45.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Fond, Resigned",
+            "text": "Very well."
+          },
+          {
+            "t": "00:48.10",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Teasing, Determined",
+            "text": "But one day, I am trimming that beard."
+          },
+          {
+            "t": "00:50.10",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Low, Amused",
+            "text": "We'll see."
+          }
+        ]
+      ],
+      "score": 44.2,
+      "rank_score": 38.2,
+      "rank": 34,
+      "id": "P34",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "43_TreasonHook",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:00.00",
+          "end": "01:00.00",
+          "start_sec": 0.0,
+          "end_sec": 60.0,
+          "duration": 60.0,
+          "from_block": "E43-B001",
+          "to_block": "E43-B047"
+        }
+      ],
+      "total_duration": 60.0,
+      "hook": "You're lying!",
+      "cliffhanger": "Alexander: \"Read the names.\"",
+      "why": "A frantic accusation erupts and the promise of damning evidence leaves viewers desperate to hear the names.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.56,
+        "cliffhanger": 0.3
+      },
+      "flags": [],
+      "script": [
+        [
+          {
+            "t": "00:00.60",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Hysterical, Panicked",
+            "text": "You're lying!"
+          },
+          {
+            "t": "00:02.40",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Rupert lunges forward, his facial features contorting in venomous desperation."
+          },
+          {
+            "t": "00:03.90",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Shrieking, Frantic",
+            "text": "This man is an imposter! Arrest him!"
+          },
+          {
+            "t": "00:08.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander stands completely composed in his dark embroidered aristocratic coat, staring Rupert down with unyielding authority."
+          },
+          {
+            "t": "00:10.50",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Enraged, Screaming",
+            "text": "I said arrest him!"
+          },
+          {
+            "t": "00:13.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Guard Captain brings his ceremonial sword upright to attention, his expression stern and resolute."
+          },
+          {
+            "t": "00:14.20",
+            "kind": "DIALOGUE",
+            "speaker": "ROYAL GUARD",
+            "emotion": "Firm, Defiant",
+            "text": "We will not."
+          },
+          {
+            "t": "00:16.20",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Outraged, Stunned",
+            "text": "I am Lord Rupert Ashburn!"
+          },
+          {
+            "t": "00:18.10",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Desperate",
+            "text": "Your Duke!"
+          },
+          {
+            "t": "00:19.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Guard Captain snaps a crisp salute toward Alexander."
+          },
+          {
+            "t": "00:19.20",
+            "kind": "DIALOGUE",
+            "speaker": "ROYAL GUARD",
+            "emotion": "Calm, Resolute",
+            "text": "No. He is your Duke."
+          },
+          {
+            "t": "00:22.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Lord Sterling clutches his gold-headed walking cane tightly, his jaw clenching as tension spreads through the church."
+          },
+          {
+            "t": "00:24.10",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Desperate, Flustered",
+            "text": "You have all been deceived!"
+          },
+          {
+            "t": "00:26.10",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Authoritative",
+            "text": "Then let the Crown decide."
+          },
+          {
+            "t": "00:28.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Alexander brings forth the dossier stamped \"WAR OFFICE - TOP SECRET\" with the royal crest."
+          },
+          {
+            "t": "00:30.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Grave, Powerful",
+            "text": "These were delivered to me under the seal of the Crown."
+          },
+          {
+            "t": "00:33.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Commanding",
+            "text": "Read the first."
+          },
+          {
+            "t": "00:35.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Crown Official receives the dossier solemnly with both hands."
+          },
+          {
+            "t": "00:37.20",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Crisp sound of parchment turning."
+          },
+          {
+            "t": "00:37.80",
+            "kind": "DIALOGUE",
+            "speaker": "CROWN OFFICIAL",
+            "emotion": "Clear, Formal",
+            "text": "Military Intelligence Report, Iberian front, three years ago."
+          },
+          {
+            "t": "00:44.00",
+            "kind": "DIALOGUE",
+            "speaker": "CROWN OFFICIAL",
+            "emotion": "Solemn, Objective",
+            "text": "Duke Alexander Ashburn's unit was ambushed after his location was compromised."
+          },
+          {
+            "t": "00:47.80",
+            "kind": "DIALOGUE",
+            "speaker": "CROWN OFFICIAL",
+            "emotion": "Accusing, Measured",
+            "text": "The report identifies the leak as deliberate."
+          },
+          {
+            "t": "00:51.00",
+            "kind": "DIALOGUE",
+            "speaker": "CROWN OFFICIAL",
+            "emotion": "Voice Continuing",
+            "text": "Information regarding the Duke's position was transmitted through British channels."
+          },
+          {
+            "t": "00:51.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Rupert staggers backward, his knees buckling as he leans his weight heavily on the stone balustrade."
+          },
+          {
+            "t": "00:55.00",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Whispering, Terrified",
+            "text": "No..."
+          },
+          {
+            "t": "00:58.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Implacable",
+            "text": "Read the names."
+          }
+        ]
+      ],
+      "score": 63.1,
+      "rank_score": 38.0,
+      "rank": 35,
+      "id": "P35",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Cottage Door",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 6,
+          "start": "00:33.70",
+          "end": "01:33.80",
+          "start_sec": 33.7,
+          "end_sec": 93.8,
+          "duration": 60.1,
+          "from_block": "E06-B030",
+          "to_block": "E06-B080"
+        }
+      ],
+      "total_duration": 60.1,
+      "hook": "The heavy wooden cottage door creaks open, revealing a dark, barren room.",
+      "cliffhanger": "It is not much.",
+      "why": "The eerie opening sets a tense mood, and the final line leaves viewers wondering if this modest shelter will be enough.",
+      "trope": "rescue",
+      "llm_scores": {
+        "hook": 3,
+        "cliffhanger": 3,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.1,
+        "cliffhanger": 0.12
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:33.70",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The heavy wooden cottage door creaks open. Juliana steps across the threshold into the dark, barren room."
+          },
+          {
+            "t": "00:33.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Door hinges groaning open followed by the hollow thump of footsteps on wet wood floorboards."
+          },
+          {
+            "t": "00:36.70",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Rhythmic water drips plinking into the metal-rimmed wooden bucket."
+          },
+          {
+            "t": "00:40.70",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Humble, Apologetic",
+            "text": "I am sorry."
+          },
+          {
+            "t": "00:43.60",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Grave, Sincere",
+            "text": "You came from comfort."
+          },
+          {
+            "t": "00:45.10",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Grave, Sincere",
+            "text": "This is all I can give you now."
+          },
+          {
+            "t": "00:46.60",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana removes her dark cloak, revealing her damp white bridal dress underneath."
+          },
+          {
+            "t": "00:51.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Gentle, Peaceful",
+            "text": "It is quiet."
+          },
+          {
+            "t": "00:53.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Gentle, Peaceful",
+            "text": "Very quiet."
+          },
+          {
+            "t": "00:56.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Earnest, Content",
+            "text": "I think I like that."
+          },
+          {
+            "t": "00:58.40",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Incredulous",
+            "text": "You are not disappointed?"
+          },
+          {
+            "t": "01:00.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Direct, Soft",
+            "text": "I am."
+          },
+          {
+            "t": "01:01.90",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Warm, Reassuring",
+            "text": "But not because of you."
+          },
+          {
+            "t": "01:04.30",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Determined, Practical",
+            "text": "If this is our home, I want it clean."
+          },
+          {
+            "t": "01:06.70",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Caring, Tender",
+            "text": "You don't have to do that tonight."
+          },
+          {
+            "t": "01:10.10",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Vulnerable, Trembling",
+            "text": "If I stop now, I will think about everything I lost."
+          },
+          {
+            "t": "01:14.30",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Instead of stopping her, the Mysterious Bearded Man kneels beside the table and begins inspecting and adjusting the wobbly table leg to help."
+          },
+          {
+            "t": "01:16.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana picks up a straw broom and sweeps the stone floor in front of the stone hearth."
+          },
+          {
+            "t": "01:17.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man carries a heavy wooden log across the room and places it onto the iron grate in the hearth."
+          },
+          {
+            "t": "01:21.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame."
+          },
+          {
+            "t": "01:23.80",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Crisp crackling and snapping of dry wood catching fire in the hearth."
+          },
+          {
+            "t": "01:27.50",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Mysterious Bearded Man stands up from the hearth, dusting his hands on his coat."
+          },
+          {
+            "t": "01:29.00",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Relieved",
+            "text": "There."
+          },
+          {
+            "t": "01:32.10",
+            "kind": "DIALOGUE",
+            "speaker": "MYSTERIOUS BEARDED MAN",
+            "emotion": "Quiet, Modest",
+            "text": "It is not much."
+          }
+        ]
+      ],
+      "score": 50.2,
+      "rank_score": 37.6,
+      "rank": 36,
+      "id": "P36",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Royal Seizure Threat",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 46,
+          "start": "00:11.00",
+          "end": "00:26.80",
+          "start_sec": 11.0,
+          "end_sec": 26.8,
+          "duration": 15.8,
+          "from_block": "E46-B007",
+          "to_block": "E46-B015"
+        },
+        {
+          "episode": 46,
+          "start": "01:58.50",
+          "end": "02:18.80",
+          "start_sec": 118.5,
+          "end_sec": 138.8,
+          "duration": 20.3,
+          "from_block": "E46-B063",
+          "to_block": "E46-B070"
+        }
+      ],
+      "total_duration": 36.1,
+      "hook": "By Royal command, this sanctuary is placed under immediate Crown seizure.",
+      "cliffhanger": "Ten days, Duke. Choose your witnesses well.",
+      "why": "The priest\u2019s sudden decree shatters the wedding, then a looming ten\u2011day deadline leaves the Duke\u2019s fate hanging.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 1
+      },
+      "rule_scores": {
+        "hook": 0.0,
+        "cliffhanger": 0.5
+      },
+      "flags": [
+        "multi_segment"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:11.50",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Booming, Authoritative",
+            "text": "By Royal command, this sanctuary is placed under immediate Crown scesion."
+          },
+          {
+            "t": "00:15.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Crisp tear of wax and parchment string snapping open."
+          },
+          {
+            "t": "00:17.30",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Stern, Commanding",
+            "text": "None shall leave until every witness is accounted for."
+          },
+          {
+            "t": "00:20.60",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "O.S.) (Cold, Accusatory",
+            "text": "You married this woman as a nameless beggar..."
+          },
+          {
+            "t": "00:22.90",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Scornful, Harsh",
+            "text": "...in a hedge ceremony no clerk in England ever recorded."
+          }
+        ],
+        [
+          {
+            "t": "01:58.80",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Chilling, Victorious",
+            "text": "Ten days. And if the council rules against you, this county watches you lose her twice."
+          },
+          {
+            "t": "02:04.00",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Steely, Unfazed",
+            "text": "I'll take that wager over your decree."
+          },
+          {
+            "t": "02:07.20",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Thunderous, Imposing",
+            "text": "Lower them! Or explain to the Crown why its own bailiffs raised iron on the Duke it just confirmed!"
+          },
+          {
+            "t": "02:14.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The guards slowly lower their weapon points away from the Duke."
+          },
+          {
+            "t": "02:14.20",
+            "kind": "DIALOGUE",
+            "speaker": "HIGH PRIEST",
+            "emotion": "Ominous, Warning",
+            "text": "Ten days, Duke. Choose your witnesses well."
+          }
+        ]
+      ],
+      "score": 62.8,
+      "rank_score": 35.1,
+      "rank": 37,
+      "id": "P37",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Duchess Collapse \u2192 Identity Reveal",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 28,
+          "start": "00:46.80",
+          "end": "01:43.70",
+          "start_sec": 46.8,
+          "end_sec": 103.7,
+          "duration": 56.9,
+          "from_block": "E28-B035",
+          "to_block": "E28-B074"
+        }
+      ],
+      "total_duration": 56.9,
+      "hook": "The Duchess collapses back onto the pillows, coughing violently and clutching her chest.",
+      "cliffhanger": "Catherine triumphantly declares, \u201cLady Juliana Ashcroft.\u201d",
+      "why": "A sudden collapse throws the court into chaos, then the villain shatters Juliana\u2019s secret identity, leaving viewers desperate to see her fate.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 3
+      },
+      "rule_scores": {
+        "hook": 0.6,
+        "cliffhanger": 0.27
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:46.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The Duchess collapses back onto the pillows, coughing violently and clutching her chest."
+          },
+          {
+            "t": "00:48.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Panicked, Screaming",
+            "text": "Let me help her!"
+          },
+          {
+            "t": "00:49.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Desperate",
+            "text": "She's still weak, you cannot leave her like this!"
+          },
+          {
+            "t": "00:52.80",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Smooth, Feigning Concern",
+            "text": "You see?"
+          },
+          {
+            "t": "00:54.00",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Sinister",
+            "text": "The poison has clearly damaged her mind."
+          },
+          {
+            "t": "00:57.00",
+            "kind": "DIALOGUE",
+            "speaker": "DOWAGER DUCHESS",
+            "emotion": "Hoarse, Straining",
+            "text": "I am not delusional!"
+          },
+          {
+            "t": "00:58.60",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Condescending, Whispering",
+            "text": "Of course you are not."
+          },
+          {
+            "t": "01:00.10",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Dismissive",
+            "text": "You are merely confused."
+          },
+          {
+            "t": "01:01.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Amused, Mocking",
+            "text": "How convenient that the only person who can prove the poison exists..."
+          },
+          {
+            "t": "01:04.90",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Smug",
+            "text": "...is the maid who claims to have discovered it."
+          },
+          {
+            "t": "01:07.20",
+            "kind": "DIALOGUE",
+            "speaker": "BLOND NOBLEMAN",
+            "emotion": "Commanding, Resolute",
+            "text": "Take her away before she poisons the rest of this house."
+          },
+          {
+            "t": "01:10.80",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine ruthlessly yanks the silver locket off Juliana's neck."
+          },
+          {
+            "t": "01:11.20",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Crying Out",
+            "text": "No!"
+          },
+          {
+            "t": "01:12.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Insolent, Sneering",
+            "text": "Where did a gutter rat like you find a silver locket?"
+          },
+          {
+            "t": "01:15.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Screaming, Weeping",
+            "text": "Give it back!"
+          },
+          {
+            "t": "01:16.80",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Anguished",
+            "text": "It belonged to my mother!"
+          },
+          {
+            "t": "01:19.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "O.S.) (Cruel",
+            "text": "A witch has no need for family heirlooms in the gallows."
+          },
+          {
+            "t": "01:21.00",
+            "kind": "SOUND FX",
+            "speaker": "",
+            "emotion": "",
+            "text": "Metallic clatter as the silver pendant bounces against the wooden baseboard."
+          },
+          {
+            "t": "01:22.50",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "Heartbroken",
+            "text": "My mother's locket!"
+          },
+          {
+            "t": "01:28.00",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Catherine lifts the heavy herbarium, dusting off the cover before opening its aged parchment pages."
+          },
+          {
+            "t": "01:31.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Intrigued, Murmuring",
+            "text": "Juliana..."
+          },
+          {
+            "t": "01:35.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "Juliana gasps in horror, realizing her secret identity has been laid bare."
+          },
+          {
+            "t": "01:38.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Triumphant, Venomous",
+            "text": "Lady Juliana Ashcroft."
+          },
+          {
+            "t": "01:41.50",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Mocking, Reveling",
+            "text": "I knew I had seen those eyes before."
+          }
+        ]
+      ],
+      "score": 59.2,
+      "rank_score": 30.8,
+      "rank": 38,
+      "id": "P38",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep19_MotherPrisoner",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 19,
+          "start": "01:16.50",
+          "end": "01:40.00",
+          "start_sec": 76.5,
+          "end_sec": 100.0,
+          "duration": 23.5,
+          "from_block": "E19-B042",
+          "to_block": "E19-B053"
+        }
+      ],
+      "total_duration": 23.5,
+      "hook": "My mother is a prisoner in her own house.",
+      "cliffhanger": "The heavy wooden barn doors creak open as Alexander steps into lantern light, leaving his next move unknown.",
+      "why": "A shocking family betrayal is revealed instantly, then the scene cuts just as Alexander prepares to act, urging viewers to find out his plan.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 3,
+        "spoiler_risk": 2
+      },
+      "rule_scores": {
+        "hook": 0.47,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "01:16.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Cold, Pained Fury",
+            "text": "My mother is a prisoner in her own house."
+          },
+          {
+            "t": "01:19.00",
+            "kind": "DIALOGUE",
+            "speaker": "INFORMANT",
+            "emotion": "Quiet, Solemn",
+            "text": "And everyone believes you are dead."
+          },
+          {
+            "t": "01:21.50",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Lethal, Calculating",
+            "text": "Then let them believe it a little longer."
+          },
+          {
+            "t": "01:24.00",
+            "kind": "DIALOGUE",
+            "speaker": "INFORMANT",
+            "emotion": "Inquiring, Tense",
+            "text": "And when we have the proof?"
+          },
+          {
+            "t": "01:25.90",
+            "kind": "DIALOGUE",
+            "speaker": "ALEXANDER",
+            "emotion": "Vow of Vengeance, Resolute",
+            "text": "Then Ashburg will remember who it belongs to."
+          },
+          {
+            "t": "01:37.20",
+            "kind": "ACTION",
+            "speaker": "",
+            "emotion": "",
+            "text": "The heavy wooden barn doors creak open. Alexander steps into the lantern light, carrying a bundle of firewood and a thick blanket under his arm."
+          },
+          {
+            "t": "01:37.40",
+            "kind": "DIALOGUE",
+            "speaker": "JULIANA",
+            "emotion": "O.S.",
+            "text": "We have lost everything."
+          }
+        ]
+      ],
+      "score": 58.4,
+      "rank_score": 28.3,
+      "rank": 39,
+      "id": "P39",
+      "post_position": null,
+      "post_reason": null
+    },
+    {
+      "title": "Ep20_DuellingDuchy",
+      "source": "llm",
+      "segments": [
+        {
+          "episode": 20,
+          "start": "00:21.30",
+          "end": "00:56.50",
+          "start_sec": 21.3,
+          "end_sec": 56.5,
+          "duration": 35.2,
+          "from_block": "E20-B014",
+          "to_block": "E20-B033"
+        }
+      ],
+      "total_duration": 35.2,
+      "hook": "Once my cousin Alexander's death is formally sealed by the Crown...",
+      "cliffhanger": "Rupert promises the peasants will learn their place when Catherine wears the ducal crown, leaving their ruthless scheme hanging.",
+      "why": "The hook drops a major power\u2011vacuum revelation, then the segment ends on the villains' ominous promise, compelling viewers to see how they\u2019ll seize the title.",
+      "trope": "betrayal",
+      "llm_scores": {
+        "hook": 4,
+        "cliffhanger": 4,
+        "standalone": 4,
+        "spoiler_risk": 3
+      },
+      "rule_scores": {
+        "hook": 0.0,
+        "cliffhanger": 0.0
+      },
+      "flags": [
+        "weak_ending_signal"
+      ],
+      "script": [
+        [
+          {
+            "t": "00:21.30",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Dark, Conspiratorial",
+            "text": "Once my cousin Alexander's death is formally sealed by the Crown..."
+          },
+          {
+            "t": "00:24.30",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Decisive",
+            "text": "...the title is mine."
+          },
+          {
+            "t": "00:25.50",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Wary, Inquiring",
+            "text": "And what of the Dowager? The old woman still breathes."
+          },
+          {
+            "t": "00:28.30",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Disdainful",
+            "text": "Her shadow still hangs over this house."
+          },
+          {
+            "t": "00:30.20",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Quiet, Sinister",
+            "text": "Her health fails more each day. The physicians are baffled."
+          },
+          {
+            "t": "00:32.90",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Gloating",
+            "text": "They call it a wasting of the lungs."
+          },
+          {
+            "t": "00:34.20",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Mock-Sympathetic, Cruel",
+            "text": "How tragic. The slow, quiet decline."
+          },
+          {
+            "t": "00:36.90",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Scheming",
+            "text": "How much longer can the frail thing survive?"
+          },
+          {
+            "t": "00:39.40",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Cold, Callous",
+            "text": "Not through the winter. I've ensured her quiet comfort."
+          },
+          {
+            "t": "00:42.60",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Vindictive",
+            "text": "Good. The village is already whispering about her."
+          },
+          {
+            "t": "00:45.00",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Contemptuous",
+            "text": "The local peasants are like dogs, barking at every carriage that passes."
+          },
+          {
+            "t": "00:48.50",
+            "kind": "DIALOGUE",
+            "speaker": "CATHERINE",
+            "emotion": "Disgusted",
+            "text": "They disgust me."
+          },
+          {
+            "t": "00:50.20",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Dismissive, Arrogant",
+            "text": "They are nothing. Dirt beneath our boots."
+          },
+          {
+            "t": "00:52.80",
+            "kind": "DIALOGUE",
+            "speaker": "RUPERT",
+            "emotion": "Authoritative, Promising",
+            "text": "They will learn their place when you wear the ducal crown."
+          }
+        ]
+      ],
+      "score": 52.8,
+      "rank_score": 23.8,
+      "rank": 40,
+      "id": "P40",
+      "post_position": null,
+      "post_reason": null
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "episodes": 50,
+  "raw_candidates": 43,
+  "valid": 40,
+  "rejected_invalid": 3,
+  "dropped_duplicates": 0,
+  "final": 40,
+  "validity_rate": 0.93,
+  "episodes_with_a_promo": 41,
+  "episodes_without_promo": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    34,
+    39,
+    47
+  ],
+  "duration_sec": {
+    "min": 23.5,
+    "max": 61.5,
+    "mean": 43.3
+  },
+  "flag_counts": {
+    "weak_ending_signal": 13,
+    "multi_segment": 3,
+    "cross_episode": 1
+  },
+  "rules_vs_llm_disagreements": [
+    {
+      "id": "P01",
+      "dimension": "cliffhanger",
+      "llm": 5,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P02",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.1,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P04",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.15,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P07",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P09",
+      "dimension": "hook",
+      "llm": 5,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P10",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.1,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P11",
+      "dimension": "hook",
+      "llm": 5,
+      "rules": 0.4,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P12",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P13",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P14",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P15",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.1,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P16",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.15,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P18",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P21",
+      "dimension": "hook",
+      "llm": 5,
+      "rules": 0.28,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P21",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P23",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P23",
+      "dimension": "cliffhanger",
+      "llm": 5,
+      "rules": 0.07,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P25",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P26",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.1,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P26",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.12,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P28",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P28",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P30",
+      "dimension": "cliffhanger",
+      "llm": 3,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P31",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.2,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P31",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.18,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P32",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.1,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P33",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.05,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P34",
+      "dimension": "cliffhanger",
+      "llm": 3,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P37",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P39",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P40",
+      "dimension": "hook",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    },
+    {
+      "id": "P40",
+      "dimension": "cliffhanger",
+      "llm": 4,
+      "rules": 0.0,
+      "note": "LLM rates it high but no textual signal (check the video)"
+    }
+  ],
+  "rejection_reasons": [
+    {
+      "title": "Juliana Defiance",
+      "segments": [
+        {
+          "ep": 34,
+          "from": 76,
+          "to": 111
+        }
+      ],
+      "reason": "too long (64.7s)"
+    },
+    {
+      "title": "Ep39\u2011Duke\u2019s Return",
+      "segments": [
+        {
+          "ep": 39,
+          "from": 21,
+          "to": 55
+        }
+      ],
+      "reason": "too long (62.6s)"
+    },
+    {
+      "title": "Ashbourne Confrontation",
+      "segments": [
+        {
+          "ep": 47,
+          "from": 26,
+          "to": 62
+        }
+      ],
+      "reason": "too long (61.7s)"
+    }
+  ]
+}
