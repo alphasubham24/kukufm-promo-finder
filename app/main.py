@@ -259,6 +259,14 @@ def get_file(run_id: str, fname: str):
     return FileResponse(p, filename=f"{run_id}-{fname}")
 
 
+@app.get("/solution.pdf")
+def solution_pdf():
+    pdf_path = STATIC / "solution.pdf"
+    if pdf_path.exists():
+        return FileResponse(pdf_path, media_type="application/pdf", filename="Kuku_FM_Problem_1_Solution_Subham_Kumar.pdf")
+    raise HTTPException(404, "PDF not found")
+
+
 @app.get("/")
 def index():
     html_file = STATIC / "index.html"
