@@ -145,10 +145,16 @@ class LLM:
 
 def parse_json_loose(s: str):
     s = s.strip()
-    s = re.sub(r"^```(?:json)?\s*|\s*```$", "", s)
+    # Strip markdown code fences
+    s = re.sub(r"^```(?:json)?\s*|\s*```$", "", s, flags=re.MULTILINE)
+    # Strip <reasoning>...</reasoning> or <thinking>...</thinking> blocks
+    # that some models (e.g. Bedrock o-series) prepend before the JSON
+    s = re.sub(r"<(reasoning|thinking|scratchpad)>.*?</\1>", "", s, flags=re.S | re.I)
+    s = s.strip()
     try:
         return json.loads(s)
     except json.JSONDecodeError:
+        # Fallback: grab the first complete {...} JSON object in the text
         m = re.search(r"\{.*\}", s, re.S)
         if m:
             try:
