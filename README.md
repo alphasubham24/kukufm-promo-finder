@@ -4,6 +4,8 @@
 
 Built for vertical microdrama — it reads episode scripts, finds the most scroll-stopping moments, and ranks them with a posting plan for launch week.
 
+🌐 **Live Demo:** [kukufm-promo-finder.vercel.app](https://kukufm-promo-finder.vercel.app)
+
 ---
 
 ## ✨ What it does
